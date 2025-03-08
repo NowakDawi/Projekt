@@ -1,5 +1,5 @@
 FROM python:3.12.9
 ENV PYTHONUNBUFFERED=1
-WORKDIR /home/dawid/Documents/GitHub/Projekt
-COPY requirements.txt ./
+WORKDIR /app
+COPY requirements.txt /app
 RUN pip install -r requirements.txt
