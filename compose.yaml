@@ -2,13 +2,12 @@ services:
     django:
         build: .
         container_name: django
-        working_dir: /home/dawid/PycharmProjects/PythonProject1
+        working_dir: /home/dawid/Documents/GitHub/Projekt
         command: >
-            sh -c "python manage.py makemigrations &&
-                    python manage.py migrate &&
+            sh -c "python manage.py migrate &&
                     python manage.py runserver 0.0.0.0:8000"
         volumes:
-            - .:/home/dawid/PycharmProjects/PythonProject1
+            - .:/home/dawid/Documents/GitHub/Projekt
         ports:
             - "8000:8000"
         depends_on:
