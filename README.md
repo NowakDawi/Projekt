@@ -12,7 +12,7 @@ docker exec -it django bash
 
 
 ```
-python manage.py mairate web
+python manage.py mairgate web
 ```
 
 
