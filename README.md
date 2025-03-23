@@ -17,7 +17,7 @@ python manage.py mairgate web
 
 
 ```
-python manage.py loaddata sample
+python manage.py loaddata */fixtures/*.json
 ```
 
 

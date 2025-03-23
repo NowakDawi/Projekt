@@ -1,0 +1,42 @@
+[
+  {
+    "model": "web.MovieCast",
+    "pk": "1",
+    "fields": {
+      "movie": "1",
+      "actor": "1"
+    }
+  },
+  {
+    "model": "web.MovieCast",
+    "pk": "2",
+    "fields": {
+      "movie": "1",
+      "actor": "2"
+    }
+  },
+  {
+    "model": "web.MovieCast",
+    "pk": "3",
+    "fields": {
+      "movie": "2",
+      "actor": "3"
+    }
+  },
+  {
+    "model": "web.MovieCast",
+    "pk": "4",
+    "fields": {
+      "movie": "2",
+      "actor": "4"
+    }
+  },
+  {
+    "model": "web.MovieCast",
+    "pk": "5",
+    "fields": {
+      "movie": "3",
+      "actor": "1"
+    }
+  }
+]

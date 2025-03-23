@@ -1,0 +1,38 @@
+[
+    {
+    "model": "web.Cast",
+    "pk": "1",
+    "fields": {
+      "name": "Tom Hanks",
+      "birth_date": "1956-07-09",
+      "description": "Jego rodzice rozwiedli się, gdy miał pięć lat. Wychowywał go ojciec – kucharz, który wkrótce przeniósł się z Kaliforni do Oakland."
+    }
+  },
+  {
+    "model": "web.Cast",
+    "pk": "2",
+    "fields": {
+      "name": "David Morse",
+      "birth_date": "1953-07-09",
+      "description": "Jego rodzice rozwiedli się, gdy miał pięć lat. Wychowywał go ojciec – kucharz, który wkrótce przeniósł się z Kaliforni do Oakland."
+    }
+  },
+  {
+    "model": "web.Cast",
+    "pk": "3",
+    "fields": {
+      "name": "Tim Robbins",
+      "birth_date": "1956-07-09",
+      "description": "Jego rodzice rozwiedli się, gdy miał pięć lat. Wychowywał go ojciec – kucharz, który wkrótce przeniósł się z Kaliforni do Oakland."
+    }
+  },
+  {
+    "model": "web.Cast",
+    "pk": "4",
+    "fields": {
+      "name": "Morgan Freeman",
+      "birth_date": "1956-07-09",
+      "description": "Jego rodzice rozwiedli się, gdy miał pięć lat. Wychowywał go ojciec – kucharz, który wkrótce przeniósł się z Kaliforni do Oakland."
+    }
+  }
+]

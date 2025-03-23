@@ -1,0 +1,32 @@
+[
+    {
+    "model": "web.Movie",
+    "pk": "1",
+    "fields": {
+      "title": "Zielona Mila",
+      "release_date": "1999-03-08",
+      "description": "Emerytowany strażnik więzienny opowiada przyjaciółce o niezwykłym mężczyźnie, którego skazano na śmierć za zabójstwo dwóch 9-letnich dziewczynek.",
+      "genre": "Dramat"
+    }
+  },
+   {
+    "model": "web.Movie",
+    "pk": "2",
+    "fields": {
+      "title": "Skazani na Shawshank",
+      "release_date": "1994-03-08",
+      "description": "Adaptacja opowiadania Stephena Kinga. Niesłusznie skazany na dożywocie bankier, stara się przetrwać w brutalnym, więziennym świecie.",
+      "genre": "Dramat"
+    }
+  },
+  {
+    "model": "web.Movie",
+    "pk": "3",
+    "fields": {
+      "title": "Forrest Gump",
+      "release_date": "1994-03-08",
+      "description": "Historia życia Forresta, chłopca o niskim ilorazie inteligencji z niedowładem kończyn, który staje się miliarderem i bohaterem wojny w Wietnamie.",
+      "genre": "Dramat / Komedia"
+    }
+  }
+]
