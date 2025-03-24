@@ -1,6 +1,6 @@
 [
     {
-    "model": "web.Movie",
+    "model": "homepage.Movie",
     "pk": "1",
     "fields": {
       "title": "Zielona Mila",
@@ -10,7 +10,7 @@
     }
   },
    {
-    "model": "web.Movie",
+    "model": "homepage.Movie",
     "pk": "2",
     "fields": {
       "title": "Skazani na Shawshank",
@@ -20,7 +20,7 @@
     }
   },
   {
-    "model": "web.Movie",
+    "model": "homepage.Movie",
     "pk": "3",
     "fields": {
       "title": "Forrest Gump",

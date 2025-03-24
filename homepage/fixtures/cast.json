@@ -1,6 +1,6 @@
 [
     {
-    "model": "web.Cast",
+    "model": "homepage.Cast",
     "pk": "1",
     "fields": {
       "name": "Tom Hanks",
@@ -9,7 +9,7 @@
     }
   },
   {
-    "model": "web.Cast",
+    "model": "homepage.Cast",
     "pk": "2",
     "fields": {
       "name": "David Morse",
@@ -18,7 +18,7 @@
     }
   },
   {
-    "model": "web.Cast",
+    "model": "homepage.Cast",
     "pk": "3",
     "fields": {
       "name": "Tim Robbins",
@@ -27,7 +27,7 @@
     }
   },
   {
-    "model": "web.Cast",
+    "model": "homepage.Cast",
     "pk": "4",
     "fields": {
       "name": "Morgan Freeman",
