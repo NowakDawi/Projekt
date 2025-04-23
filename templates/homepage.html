@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="{% static 'nowy.css' %}">
+</head>
+<body>
+    {% if movies|length > 0 %}
+        <h2>Counter of films: {{ movies|length }}</h2>
+
+        {% for movie in movies %}
+            <h2>{{ movie }}</h2>
+            <p>{{ movie.release_date }}</p>
+            <p>{{ movie.description }}</p>
+            <img src="http://127.0.0.1:8000/poster/{{ movie.poster }}" alt="Description of image" />
+        {% endfor %}
+    {% else %}
+        <h2>Movies are not available</h2>
+    {% endif %}
+
+</body>
+</html>

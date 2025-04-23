@@ -13,6 +13,10 @@ class Movie(models.Model):
     release_date = models.DateField()
     description = models.TextField()
     genre = models.TextField(max_length=100, default='')
+    poster = models.ImageField(upload_to="poster", null=True, blank=True)
+
+    def __str__(self):
+        return self.title
 
 class Cast(models.Model):
     actor_id = models.AutoField(primary_key=True)
