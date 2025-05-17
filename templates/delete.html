@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Create film</title>
+    <title>Title</title>
 </head>
 <body>
-    <form method="POST" enctype="multipart/form-data">
+    <h1>Do you really want to delete following film: "{{ movie.title }}"</h1>
+    <form method="POST">
         {% csrf_token %}
-        {{ form }}
-
-        <button type="submit">Submit</button>
+        <button type="submit">Delete</button>
     </form>
     <a href="{{ previous_url }}">
         <button type="submit">Back</button>

@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-from django.conf.global_settings import MEDIA_URL, MEDIA_ROOT
+from django.conf.global_settings import MEDIA_URL, MEDIA_ROOT, LOGIN_URL
 from dotenv import load_dotenv, find_dotenv
 
 
@@ -130,8 +130,18 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATICFILES_DIRS = ['static']
 
+LOGIN_URL = "/login/"
+
+LOGIN_REDIRECT_URL = "homepage"
+LOGOUT_REDIRECT_URL = "homepage"
 MEDIA_URL = 'poster/'
-#MEDIA_ROOT = 'poster'
+
+SESSION_COOKIE_AGE = 60  # 5 minutes in seconds
+
+# Optional: Expire the session when the browser closes
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
+# MEDIA_ROOT = 'poster'
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
