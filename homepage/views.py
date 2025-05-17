@@ -13,12 +13,12 @@ def homepage(request):
 @login_required
 def add(request):
     form = MovieForm(request.POST or None, request.FILES or None)
-
+    previous_url = request.META.get('HTTP_REFERER', '/')
     if form.is_valid():
         form.save()
         return redirect(homepage)
 
-    return render(request, 'new_form.html', {'form': form})
+    return render(request, 'new_form.html', {'form': form, 'previous_url': previous_url, 'action': "Create new film"})
 
 @login_required
 def edit(request, id):
@@ -30,7 +30,7 @@ def edit(request, id):
         form.save()
         return redirect(homepage)
 
-    return render(request, 'new_form.html', {'form': form, 'previous_url': previous_url})
+    return render(request, 'new_form.html', {'form': form, 'previous_url': previous_url, 'action': f"Edit {movie.title}"})
 
 @login_required
 def delete(request, id):
@@ -40,21 +40,20 @@ def delete(request, id):
         movie.delete()
         return redirect(homepage)
 
-    return render(request, 'delete.html', {'movie': movie, 'previous_url': previous_url})
+    return render(request, 'delete.html', {'movie': movie, 'previous_url': previous_url, 'action': f"Remove {movie.title}"})
 
 def login_view(request):
 
     next_url = request.GET.get('next') or request.POST.get('next')
 
     if request.user.is_authenticated:
-        return redirect(homepage)  # or whatever your home/dashboard URL is
+        return redirect(homepage)
 
     if request.method == 'POST':
         form = AuthenticationForm(request, data=request.POST)
         if form.is_valid():
             user = form.get_user()
             login(request, user)
-            # return redirect(homepage)
 
             if next_url and url_has_allowed_host_and_scheme(next_url, allowed_hosts={request.get_host()}):
                 return redirect(next_url)
@@ -64,4 +63,4 @@ def login_view(request):
     else:
         form = AuthenticationForm()
 
-    return render(request, 'registration/login.html', {'form': form})
+    return render(request, 'registration/login.html', {'form': form, 'action': "Login"})
