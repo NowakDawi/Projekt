@@ -29,7 +29,7 @@
             <h2>{{ movie }}</h2>
             <p>{{ movie.release_date }}</p>
             <p>{{ movie.description }}</p>
-            <img src="http://127.0.0.1:8000/poster/{{ movie.poster }}" alt="Description of image" />
+            <img src="http://127.0.0.1:8000/homepage/poster/{{ movie.poster }}" alt="Description of image" />
             <a href="{% url 'edit' movie.movie_id %}">Edit</a>
             <a href="{% url 'delete' movie.movie_id %}">Delete</a>
         {% endfor %}

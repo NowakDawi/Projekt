@@ -126,21 +126,21 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = 'homepage/static/'
 STATICFILES_DIRS = ['homepage/static']
 
 LOGIN_URL = "/login/"
 
 LOGIN_REDIRECT_URL = "homepage"
 LOGOUT_REDIRECT_URL = "homepage"
-MEDIA_URL = 'poster/'
+MEDIA_URL = 'homepage/poster/'
 
 SESSION_COOKIE_AGE = 60  # 5 minutes in seconds
 
 # Optional: Expire the session when the browser closes
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
-# MEDIA_ROOT = 'poster'
+MEDIA_ROOT = 'homepage/poster/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
