@@ -16,11 +16,15 @@
 
     <hr>
 
-    <a href="{% url 'add' %}">Add film</a>
+    <a href="{% url 'add' %}"><button>Add film</button></a>
+
+    <hr>
+
     {% if movies|length > 0 %}
         <h2>Counter of films: {{ movies|length }}</h2>
 
         {% for movie in movies %}
+            <hr>
             <h2>{{ movie }}</h2>
             <p>{{ movie.release_date }}</p>
             <p>{{ movie.description }}</p>
