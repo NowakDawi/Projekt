@@ -8,6 +8,7 @@ from homepage.views import login_view
 
 urlpatterns = [
     path('homepage/', include("homepage.urls")),
+    path('', include("homepage.urls")),
     # path('web/', include("homepage.urls")),
     path('admin/', admin.site.urls),
     path('login/', login_view, name="login_view"),
