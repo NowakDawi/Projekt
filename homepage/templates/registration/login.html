@@ -1,12 +1,13 @@
 {% extends 'main.html' %}
-{% load django_bootstrap5 %}
+
+{% load crispy_forms_tags %}
 
 {% block title %} {{ action }} {% endblock %}
 
 {% block body %}
     <form method="POST">
         {% csrf_token %}
-        {{ form }}
+        {{ form|crispy }}
         <button type="submit">Login</button>
     </form>
 {% endblock %}

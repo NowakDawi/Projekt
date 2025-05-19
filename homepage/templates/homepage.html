@@ -23,17 +23,29 @@
     {% if movies|length > 0 %}
         <h2>Counter of films: {{ movies|length }}</h2>
 
+        <div class="container">
+
         {% for movie in movies %}
-            <hr>
-            <h2>{{ movie }}</h2>
-            <p>{{ movie.release_date }}</p>
-            <p>{{ movie.description }}</p>
-            <img src="http://127.0.0.1:8000/homepage/poster/{{ movie.poster }}" alt="Description of image" />
-            <a href="{% url 'edit' movie.movie_id %}">Edit</a>
-            <a href="{% url 'delete' movie.movie_id %}">Delete</a>
+
+                <div class="box">
+                    <div style="height: 80px">
+                        <h2>{{ movie }}</h2>
+                    </div>
+                    <div>
+                        <p>{{ movie.release_date }}</p>
+                        <p>{{ movie.description }}</p>
+                    </div>
+                    <div>
+                        <img class="scaled-image" src="http://127.0.0.1:8000/homepage/poster/{{ movie.poster }}" alt="Description of image" />
+                    </div>
+
+                    <a href="{% url 'edit' movie.movie_id %}">Edit</a>
+                    <a href="{% url 'delete' movie.movie_id %}">Delete</a>
+                </div>
+
         {% endfor %}
     {% else %}
         <h2>Movies are not available</h2>
     {% endif %}
-
+        </div>
 {% endblock %}
