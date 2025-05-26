@@ -4,24 +4,48 @@
 
 {% block body %}
 
-    {% if user.is_authenticated %}
-        <h4>Hello {{ user.username }}</h4>
-        <form action="{% url 'logout' %}" method="POST">
-            {% csrf_token %}
-            <button type="submit">Logout</button>
-        </form>
-    {% else %}
-        <a href="{% url 'login_view' %}"><button>Login</button></a>
-    {% endif %}
+<hr>
+  <nav class="navbar">
+      {% if user.is_authenticated %}
+            <a href="#" class="logo"><h4>{{ user.username }}</h4></a>
+      {% endif %}
 
+      <ul class="nav-links" id="navLinks">
+      <li>
+          {% if user.is_authenticated %}
+                <form action="{% url 'logout' %}" method="POST">
+                    {% csrf_token %}
+                <button type="submit" class="btn btn-primary">Logout</button>
+                </form>
+          {% else %}
+                <a href="{% url 'login_view' %}"><button class="btn btn-primary">Login</button></a>
+          {% endif %}
+      </li>
+      <li>
+          <a href="{% url 'add' %}"><button class="btn btn-primary">Add film</button></a>
+      </li>
+      <li>
+          <a href="{% url 'add' %}"><button class="btn btn-primary">Services</button></a>
+      </li>
+      <li><a href="{% url 'add' %}"><button class="btn btn-primary">Contact</button></a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </nav>
     <hr>
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
 
-    <a href="{% url 'add' %}"><button>Add film</button></a>
-
-    <hr>
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  </script>
 
     {% if movies|length > 0 %}
-        <h2>Counter of films: {{ movies|length }}</h2>
 
         <div class="container">
 
@@ -34,6 +58,7 @@
                     <div>
                         <p>{{ movie.release_date }}</p>
                         <p>{{ movie.description }}</p>
+                        <p>{{ movie.genre }}</p>
                     </div>
                     <div>
                         <img class="scaled-image" src="http://127.0.0.1:8000/homepage/poster/{{ movie.poster }}" alt="Description of image" />
