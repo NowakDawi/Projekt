@@ -1,6 +1,7 @@
 body {
     padding: 2rem;
     color: red;
+    padding: 0;
 }
 
 .container {
@@ -23,68 +24,20 @@ body {
   object-fit: cover;
 }
 
-.navbar {
-      overflow: hidden;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+.navbar1{
+    height: 130px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    background-color: grey;
+    margin-bottom: 30px;
+}
 
-    .navbar .logo {
-      color: black;
-      font-size: 24px;
-      text-decoration: none;
-    }
+ul {
+    display: flex;
+    width: 500px;
+    list-style-type: none;
+    justify-content: space-around;
+}
 
-    .navbar .nav-links {
-      display: flex;
-      list-style: none;
-    }
-
-    .navbar .nav-links li {
-      padding: 0 15px;
-    }
-
-    .navbar .nav-links a {
-      color: white;
-      text-decoration: none;
-      font-size: 18px;
-      transition: color 0.3s;
-    }
-
-    .navbar .nav-links a:hover {
-      color: #f0a500;
-    }
-
-    .hamburger {
-      display: none;
-      flex-direction: column;
-      cursor: pointer;
-    }
-
-    .hamburger div {
-      width: 25px;
-      height: 3px;
-      background-color: white;
-      margin: 4px 0;
-    }
-
-    @media (max-width: 768px) {
-      .navbar .nav-links {
-        display: none;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        background-color: #333;
-        flex-direction: column;
-      }
-
-      .navbar .nav-links.show {
-        display: flex;
-      }
-
-      .hamburger {
-        display: flex;
-      }
-    }
