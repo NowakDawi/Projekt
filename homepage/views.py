@@ -1,14 +1,53 @@
 from django.shortcuts import render, get_object_or_404, redirect
+from django.http import HttpResponse, JsonResponse
 from django.contrib.auth.forms import AuthenticationForm
-from django.contrib.auth import login, authenticate
+from django.contrib.auth import login
 from .models import *
-from .forms import MovieForm
+from .forms import MovieForm, CustomRegisterForm
 from django.contrib.auth.decorators import login_required
 from django.utils.http import url_has_allowed_host_and_scheme
+from django.contrib import messages
 
 def homepage(request):
     movies = Movie.objects.all()
-    return render(request, 'homepage.html', {'movies': movies})
+    watchlist_movies = []
+
+    if request.user.is_authenticated:
+        watchlist_movies = Movie.objects.filter(watchlist__user=request.user.id)
+
+    return render(request, 'homepage.html', {'movies': movies, 'watchlist_movies': watchlist_movies})
+
+def homepage_specific_films(request):
+    genre = request.GET.get('genre')
+    movies = Movie.objects.filter(genre__icontains=genre)
+
+    watchlist_movies = []
+
+    if request.user.is_authenticated:
+        watchlist_movies = Movie.objects.filter(watchlist__user=request.user.id)
+
+    return render(request, 'homepage.html', {'movies': movies, 'watchlist_movies': watchlist_movies})
+
+@login_required
+def add_watchlist(request, movie_id):
+    movie = get_object_or_404(Movie, pk=movie_id)
+    user = request.user
+
+    if Watchlist.objects.filter(user=user, movie=movie).exists():
+        messages.warning(request, 'Film już znajduje się na Twojej watchliście.')
+    else:
+        Watchlist.objects.create(user=user, movie=movie)
+        messages.success(request, 'Film dodany do watchlisty.')
+
+    return redirect('homepage')
+
+@login_required
+def show_watchlist(request):
+
+    if request.user.is_authenticated:
+        watchlist_movies = Movie.objects.filter(watchlist__user=request.user.id)
+
+    return render(request, 'homepage.html', {'movies': watchlist_movies, 'watchlist_movies': watchlist_movies})
 
 @login_required
 def add(request):
@@ -64,3 +103,18 @@ def login_view(request):
         form = AuthenticationForm()
 
     return render(request, 'registration/login.html', {'form': form, 'action': "Login"})
+
+def register(request):
+    if request.method == 'POST':
+        form = CustomRegisterForm(request.POST)
+        if form.is_valid():
+            User.objects.create_user(
+                username=form.cleaned_data['username'],
+                email=form.cleaned_data['email'],
+                password=form.cleaned_data['password1']
+            )
+            messages.success(request, 'Konto zostało utworzone!')
+            return redirect('login_view')
+    else:
+        form = CustomRegisterForm()
+    return render(request, 'register.html', {'form': form})

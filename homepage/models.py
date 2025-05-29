@@ -1,11 +1,5 @@
 from django.db import models
-
-class User(models.Model):
-    user_id = models.AutoField(primary_key=True)
-    username = models.CharField(max_length=255, unique=True)
-    email = models.EmailField(unique=True)
-    password = models.CharField(max_length=255)
-    role = models.CharField(max_length=50, choices=[('admin', 'Admin'), ('user', 'User')])
+from django.contrib.auth.models import User
 
 class Movie(models.Model):
     movie_id = models.AutoField(primary_key=True)
