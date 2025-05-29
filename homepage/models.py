@@ -7,7 +7,7 @@ class Movie(models.Model):
     release_date = models.DateField()
     description = models.TextField()
     genre = models.TextField(max_length=100, default='')
-    poster = models.ImageField(null=True, blank=True)
+    poster = models.CharField(null=True, blank=True, max_length=255)
 
     def __str__(self):
         return self.title
@@ -32,3 +32,7 @@ class Comment(models.Model):
     movie = models.ForeignKey(Movie, on_delete=models.CASCADE)
     text = models.TextField()
     rate = models.IntegerField(default=1, choices=[(1, 1), (2, 2), (3, 3), (4, 4), (5, 5)])
+
+class Genre(models.Model):
+    genre_id = models.AutoField(primary_key=True)
+    name = models.CharField(max_length=255)

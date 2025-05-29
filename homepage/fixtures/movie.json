@@ -1,2502 +1,2753 @@
 [
-  {
-    "model": "homepage.Movie",
-    "pk": 1,
-    "fields": {
-      "title": "Yôjinbô",
-      "release_date": "1961-09-13",
-      "description": "A crafty ronin comes to a town divided by two criminal gangs and decides to play them against each other to free the town.",
-      "genre": "Action, Drama, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 2,
-    "fields": {
-      "title": "Witness for the Prosecution",
-      "release_date": "1958-02-06",
-      "description": "A veteran British barrister must defend his client in a murder trial that has surprise after surprise.",
-      "genre": "Crime, Drama, Mystery"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 3,
-    "fields": {
-      "title": "Whiplash",
-      "release_date": "2014-10-15",
-      "description": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student&apos;s potential.",
-      "genre": "Drama, Music"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 4,
-    "fields": {
-      "title": "Warrior",
-      "release_date": "2011-09-09",
-      "description": "The youngest son of an alcoholic former boxer returns home, where he&apos;s trained by his father for competition in a mixed martial arts tournament - a path that puts the fighter on a collision course with his estranged, older brother.",
-      "genre": "Action, Drama, Sport"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 5,
-    "fields": {
-      "title": "WALL·E",
-      "release_date": "2008-06-27",
-      "description": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
-      "genre": "Animation, Adventure, Family"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 6,
-    "fields": {
-      "title": "Vertigo",
-      "release_date": "1958-05-22",
-      "description": "A former San Francisco police detective juggles wrestling with his personal demons and becoming obsessed with the hauntingly beautiful woman he has been hired to trail, who may be deeply disturbed.",
-      "genre": "Mystery, Romance, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 7,
-    "fields": {
-      "title": "V for Vendetta",
-      "release_date": "2006-03-17",
-      "description": "In a future British dystopian society, a shadowy freedom fighter, known only by the alias of &quot;V&quot;, plots to overthrow the tyrannical government - with the help of a young woman.",
-      "genre": "Action, Drama, Sci-Fi"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 8,
-    "fields": {
-      "title": "Up",
-      "release_date": "2009-05-29",
-      "description": "78-year-old Carl Fredricksen travels to Paradise Falls in his house equipped with balloons, inadvertently taking a young stowaway.",
-      "genre": "Animation, Adventure, Comedy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 9,
-    "fields": {
-      "title": "Unforgiven",
-      "release_date": "1992-08-07",
-      "description": "Retired Old West gunslinger William Munny reluctantly takes on one last job, with the help of his old partner Ned Logan and a young man, The &quot;Schofield Kid.&quot;",
-      "genre": "Drama, Western"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 10,
-    "fields": {
-      "title": "Tôkyô monogatari",
-      "release_date": "1972-03-13",
-      "description": "An old couple visit their children and grandchildren in the city, but receive little attention.",
-      "genre": "Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 11,
-    "fields": {
-      "title": "Trainspotting",
-      "release_date": "1996-08-09",
-      "description": "Renton, deeply immersed in the Edinburgh drug scene, tries to clean up and get out, despite the allure of the drugs and influence of friends.",
-      "genre": "Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 12,
-    "fields": {
-      "title": "Toy Story 3",
-      "release_date": "2010-06-18",
-      "description": "The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it&apos;s up to Woody to convince the other toys that they weren&apos;t abandoned and to return home.",
-      "genre": "Animation, Adventure, Comedy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 13,
-    "fields": {
-      "title": "Toy Story",
-      "release_date": "1995-11-22",
-      "description": "A cowboy doll is profoundly threatened and jealous when a new spaceman action figure supplants him as top toy in a boy&apos;s bedroom.",
-      "genre": "Animation, Adventure, Comedy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 14,
-    "fields": {
-      "title": "Top Gun: Maverick",
-      "release_date": "2022-05-27",
-      "description": "After thirty years, Maverick is still pushing the envelope as a top naval aviator, but must confront ghosts of his past when he leads TOP GUN&apos;s elite graduates on a mission that demands the ultimate sacrifice from those chosen to ...",
-      "genre": "Action, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 15,
-    "fields": {
-      "title": "Tonari no Totoro",
-      "release_date": "1990-07-13",
-      "description": "When two girls move to the country to be near their ailing mother, they have adventures with the wondrous forest spirits who live nearby.",
-      "genre": "Animation, Comedy, Family"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 16,
-    "fields": {
-      "title": "To Kill a Mockingbird",
-      "release_date": "1963-03-16",
-      "description": "Atticus Finch, a widowed lawyer in Depression-era Alabama, defends a black man against an undeserved rape charge, and his children against prejudice.",
-      "genre": "Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 17,
-    "fields": {
-      "title": "To Be or Not to Be",
-      "release_date": "1942-03-06",
-      "description": "During the Nazi occupation of Poland, an acting troupe becomes embroiled in a Polish soldier&apos;s efforts to track down a German spy.",
-      "genre": "Comedy, Romance, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 18,
-    "fields": {
-      "title": "Three Billboards Outside Ebbing, Missouri",
-      "release_date": "2017-12-01",
-      "description": "A mother personally challenges the local authorities to solve her daughter&apos;s murder when they fail to catch the culprit.",
-      "genre": "Comedy, Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 19,
-    "fields": {
-      "title": "There Will Be Blood",
-      "release_date": "2008-01-25",
-      "description": "A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business.",
-      "genre": "Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 20,
-    "fields": {
-      "title": "The Wolf of Wall Street",
-      "release_date": "2013-12-25",
-      "description": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
-      "genre": "Biography, Comedy, Crime"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 21,
-    "fields": {
-      "title": "The Wizard of Oz",
-      "release_date": "1939-08-25",
-      "description": "Young Dorothy Gale and her dog Toto are swept away by a tornado from their Kansas farm to the magical Land of Oz, and embark on a quest with three new friends to see the Wizard, who can return her to her home and fulfill the other...",
-      "genre": "Adventure, Family, Fantasy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 22,
-    "fields": {
-      "title": "The Usual Suspects",
-      "release_date": "1995-08-16",
-      "description": "A sole survivor tells of the twisty events leading up to a horrific gun battle on a boat, which began when five criminals met at a seemingly random police lineup.",
-      "genre": "Crime, Drama, Mystery"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 23,
-    "fields": {
-      "title": "The Truman Show",
-      "release_date": "1998-06-05",
-      "description": "An insurance salesman discovers his whole life is actually a reality TV show.",
-      "genre": "Comedy, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 24,
-    "fields": {
-      "title": "The Treasure of the Sierra Madre",
-      "release_date": "1948-01-24",
-      "description": "Two down-on-their-luck Americans searching for work in 1920s Mexico convince an old prospector to help them mine for gold in the Sierra Madre Mountains.",
-      "genre": "Adventure, Drama, Western"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 25,
-    "fields": {
-      "title": "The Third Man",
-      "release_date": "1949-09-03",
-      "description": "Pulp novelist Holly Martins travels to shadowy, postwar Vienna, only to find himself investigating the mysterious death of an old friend, Harry Lime.",
-      "genre": "Film-Noir, Mystery, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 26,
-    "fields": {
-      "title": "The Thing",
-      "release_date": "1982-06-25",
-      "description": "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.",
-      "genre": "Horror, Mystery, Sci-Fi"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 27,
-    "fields": {
-      "title": "The Terminator",
-      "release_date": "1984-10-26",
-      "description": "A human soldier is sent from 2029 to 1984 to stop an almost indestructible cyborg killing machine, sent from the same year, which has been programmed to execute a young woman whose unborn son is the key to humanity&apos;s future salvat...",
-      "genre": "Action, Sci-Fi"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 28,
-    "fields": {
-      "title": "The Sting",
-      "release_date": "1973-12-25",
-      "description": "Two grifters team up to pull off the ultimate con.",
-      "genre": "Comedy, Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 29,
-    "fields": {
-      "title": "The Sound of Music",
-      "release_date": "1965-04-01",
-      "description": "A young novitiate is sent by her convent in 1930s Austria to become a governess to the seven children of a widowed naval officer.",
-      "genre": "Biography, Drama, Family"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 30,
-    "fields": {
-      "title": "The Sixth Sense",
-      "release_date": "1999-08-06",
-      "description": "A frightened, withdrawn Philadelphia boy who communicates with spirits seeks the help of a disheartened child psychologist.",
-      "genre": "Drama, Mystery, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 31,
-    "fields": {
-      "title": "The Silence of the Lambs",
-      "release_date": "1991-02-14",
-      "description": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
-      "genre": "Crime, Drama, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 32,
-    "fields": {
-      "title": "The Shining",
-      "release_date": "1980-06-13",
-      "description": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",
-      "genre": "Drama, Horror"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 33,
-    "fields": {
-      "title": "The Shawshank Redemption",
-      "release_date": "1994-10-14",
-      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-      "genre": "Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 34,
-    "fields": {
-      "title": "The Prestige",
-      "release_date": "2006-10-20",
-      "description": "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
-      "genre": "Drama, Mystery, Sci-Fi"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 35,
-    "fields": {
-      "title": "The Pianist",
-      "release_date": "2003-03-28",
-      "description": "A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.",
-      "genre": "Biography, Drama, Music"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 36,
-    "fields": {
-      "title": "The Matrix",
-      "release_date": "1999-03-31",
-      "description": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
-      "genre": "Action, Sci-Fi"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 37,
-    "fields": {
-      "title": "The Lord of the Rings: The Two Towers",
-      "release_date": "2002-12-18",
-      "description": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron&apos;s new ally, Saruman, and his hordes of Isengard.",
-      "genre": "Action, Adventure, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 38,
-    "fields": {
-      "title": "The Lord of the Rings: The Return of the King",
-      "release_date": "2003-12-17",
-      "description": "Gandalf and Aragorn lead the World of Men against Sauron&apos;s army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
-      "genre": "Action, Adventure, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 39,
-    "fields": {
-      "title": "The Lord of the Rings: The Fellowship of the Ring",
-      "release_date": "2001-12-19",
-      "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
-      "genre": "Action, Adventure, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 40,
-    "fields": {
-      "title": "The Lion King",
-      "release_date": "1994-06-24",
-      "description": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
-      "genre": "Animation, Adventure, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 41,
-    "fields": {
-      "title": "The Kid",
-      "release_date": "1921-02-06",
-      "description": "The Tramp cares for an abandoned child, but events put their relationship in jeopardy.",
-      "genre": "Comedy, Drama, Family"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 42,
-    "fields": {
-      "title": "The Iron Giant",
-      "release_date": "1999-08-06",
-      "description": "A young boy befriends a giant robot from outer space that a paranoid government agent wants to destroy.",
-      "genre": "Animation, Action, Adventure"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 43,
-    "fields": {
-      "title": "The Incredibles",
-      "release_date": "2004-11-05",
-      "description": "While trying to lead a quiet suburban life, a family of undercover superheroes are forced into action to save the world.",
-      "genre": "Animation, Action, Adventure"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 44,
-    "fields": {
-      "title": "The Help",
-      "release_date": "2011-08-10",
-      "description": "An aspiring author during the civil rights movement of the 1960s decides to write a book detailing the African American maids&apos; point of view on the white families for which they work, and the hardships they go through on a daily b...",
-      "genre": "Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 45,
-    "fields": {
-      "title": "The Green Mile",
-      "release_date": "1999-12-10",
-      "description": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",
-      "genre": "Crime, Drama, Fantasy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 46,
-    "fields": {
-      "title": "The Great Escape",
-      "release_date": "1963-07-04",
-      "description": "Allied prisoners of war plan for several hundred of their number to escape from a German camp during World War II.",
-      "genre": "Adventure, Drama, History"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 47,
-    "fields": {
-      "title": "The Great Dictator",
-      "release_date": "1941-03-07",
-      "description": "Dictator Adenoid Hynkel tries to expand his empire while a poor Jewish barber tries to avoid persecution from Hynkel&apos;s regime.",
-      "genre": "Comedy, Drama, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 48,
-    "fields": {
-      "title": "The Grapes of Wrath",
-      "release_date": "1940-03-15",
-      "description": "An Oklahoma family, driven off their farm by the poverty and hopelessness of the Dust Bowl, joins the westward migration to California, suffering the misfortunes of the homeless in the Great Depression.",
-      "genre": "Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 49,
-    "fields": {
-      "title": "The Grand Budapest Hotel",
-      "release_date": "2014-03-28",
-      "description": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel&apos;s glorious years under an exceptional concierge.",
-      "genre": "Adventure, Comedy, Crime"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 50,
-    "fields": {
-      "title": "The Gold Rush",
-      "release_date": "1925-07-13",
-      "description": "A prospector goes to the Klondike during the 1890s gold rush in hopes of making his fortune, and is smitten with a girl he sees in a dance hall.",
-      "genre": "Adventure, Comedy, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 51,
-    "fields": {
-      "title": "The Godfather Part II",
-      "release_date": "1974-12-18",
-      "description": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
-      "genre": "Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 52,
-    "fields": {
-      "title": "The Godfather",
-      "release_date": "1972-03-24",
-      "description": "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son.",
-      "genre": "Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 53,
-    "fields": {
-      "title": "The General",
-      "release_date": "1927-01-02",
-      "description": "After being rejected by the Confederate military, not realizing it was due to his crucial civilian role, an engineer must single-handedly recapture his beloved locomotive after it is seized by Union spies and return it through ene...",
-      "genre": "Action, Adventure, Comedy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 54,
-    "fields": {
-      "title": "The Father",
-      "release_date": "2021-02-26",
-      "description": "A man refuses all assistance from his daughter as he ages. As he tries to make sense of his changing circumstances, he begins to doubt his loved ones, his own mind and even the fabric of his reality.",
-      "genre": "Drama, Mystery"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 55,
-    "fields": {
-      "title": "The Exorcist",
-      "release_date": "1973-12-26",
-      "description": "When a teenage girl is possessed by a mysterious entity, her mother seeks the help of two priests to save her daughter.",
-      "genre": "Horror"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 56,
-    "fields": {
-      "title": "The Empire Strikes Back",
-      "release_date": "1980-06-20",
-      "description": "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued across the galaxy by Darth Vader and bounty hunter Boba Fett.",
-      "genre": "Action, Adventure, Fantasy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 57,
-    "fields": {
-      "title": "The Elephant Man",
-      "release_date": "1980-10-10",
-      "description": "A Victorian surgeon rescues a heavily disfigured man who is mistreated while scraping a living as a side-show freak. Behind his monstrous façade, there is revealed a person of kindness, intelligence and sophistication.",
-      "genre": "Biography, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 58,
-    "fields": {
-      "title": "The Departed",
-      "release_date": "2006-10-06",
-      "description": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
-      "genre": "Crime, Drama, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 59,
-    "fields": {
-      "title": "The Deer Hunter",
-      "release_date": "1979-02-23",
-      "description": "An in-depth examination of the ways in which the Vietnam War impacts and disrupts the lives of several friends in a small steel mill town in Pennsylvania.",
-      "genre": "Drama, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 60,
-    "fields": {
-      "title": "The Dark Knight Rises",
-      "release_date": "2012-07-20",
-      "description": "Eight years after the Joker&apos;s reign of anarchy, Batman, with the help of the enigmatic Selina Kyle, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane.",
-      "genre": "Action, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 61,
-    "fields": {
-      "title": "The Dark Knight",
-      "release_date": "2008-07-18",
-      "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
-      "genre": "Action, Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 62,
-    "fields": {
-      "title": "The Bridge on the River Kwai",
-      "release_date": "1957-12-14",
-      "description": "British POWs are forced to build a railway bridge across the river Kwai for their Japanese captors in occupied Burma, not knowing that the allied forces are planning a daring commando raid through the jungle to destroy it.",
-      "genre": "Adventure, Drama, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 63,
-    "fields": {
-      "title": "The Big Lebowski",
-      "release_date": "1998-03-06",
-      "description": "Ultimate L.A. slacker Jeff &quot;The Dude&quot; Lebowski, mistaken for a millionaire of the same name, seeks restitution for a rug ruined by debt collectors, enlisting his bowling buddies for help while trying to find the millionaire&apos;s miss...",
-      "genre": "Comedy, Crime"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 64,
-    "fields": {
-      "title": "The Best Years of Our Lives",
-      "release_date": "1947-05-29",
-      "description": "Three World War II veterans, two of them traumatized or disabled, return home to the American midwest to discover that they and their families have been irreparably changed.",
-      "genre": "Drama, Romance, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 65,
-    "fields": {
-      "title": "The Apartment",
-      "release_date": "1960-06-29",
-      "description": "A Manhattan insurance clerk tries to rise in his company by letting its executives use his apartment for trysts, but complications and a romance of his own ensue.",
-      "genre": "Comedy, Drama, Romance"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 66,
-    "fields": {
-      "title": "Terminator 2: Judgment Day",
-      "release_date": "1991-07-03",
-      "description": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her 10-year old adolescent son John from an even more advanced and powerful cyborg.",
-      "genre": "Action, Sci-Fi"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 67,
-    "fields": {
-      "title": "Tengoku to jigoku",
-      "release_date": "1963-11-26",
-      "description": "An executive of a Yokohama shoe company becomes a victim of extortion when his chauffeur&apos;s son is kidnapped by mistake and held for ransom.",
-      "genre": "Crime, Drama, Mystery"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 68,
-    "fields": {
-      "title": "Taxi Driver",
-      "release_date": "1976-02-09",
-      "description": "A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action.",
-      "genre": "Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 69,
-    "fields": {
-      "title": "Taare Zameen Par",
-      "release_date": "2007-12-21",
-      "description": "An eight-year-old boy is thought to be a lazy trouble-maker, until the new art teacher has the patience and compassion to discover the real problem behind his struggles in school.",
-      "genre": "Drama, Family"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 70,
-    "fields": {
-      "title": "Sunset Blvd.",
-      "release_date": "1950-08-04",
-      "description": "A screenwriter develops a dangerous relationship with a faded film star determined to make a triumphant return.",
-      "genre": "Drama, Film-Noir"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 71,
-    "fields": {
-      "title": "Star Wars: Episode VI - Return of the Jedi",
-      "release_date": "1983-05-25",
-      "description": "After a daring mission to rescue Han Solo from Jabba the Hutt, the Rebels dispatch to Endor to destroy the second Death Star. Meanwhile, Luke struggles to help Darth Vader back from the dark side without falling into the Emperor&apos;s...",
-      "genre": "Action, Adventure, Fantasy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 72,
-    "fields": {
-      "title": "Star Wars",
-      "release_date": "1977-05-25",
-      "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire&apos;s world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth ...",
-      "genre": "Action, Adventure, Fantasy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 73,
-    "fields": {
-      "title": "Stand by Me",
-      "release_date": "1986-08-22",
-      "description": "After the death of one of his friends, a writer recounts a childhood journey with his friends to find the body of a missing boy.",
-      "genre": "Adventure, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 74,
-    "fields": {
-      "title": "Spotlight",
-      "release_date": "2015-11-20",
-      "description": "The true story of how the Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese, shaking the entire Catholic Church to its core.",
-      "genre": "Biography, Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 75,
-    "fields": {
-      "title": "Spider-Man: No Way Home",
-      "release_date": "2021-12-17",
-      "description": "With Spider-Man&apos;s identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.",
-      "genre": "Action, Adventure, Fantasy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 76,
-    "fields": {
-      "title": "Spider-Man: Into the Spider-Verse",
-      "release_date": "2018-12-14",
-      "description": "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
-      "genre": "Animation, Action, Adventure"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 77,
-    "fields": {
-      "title": "Some Like It Hot",
-      "release_date": "1959-03-19",
-      "description": "After two male musicians witness a mob hit, they flee the state in an all-female band disguised as women, but further complications set in.",
-      "genre": "Comedy, Music, Romance"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 78,
-    "fields": {
-      "title": "Snatch",
-      "release_date": "2001-01-19",
-      "description": "Unscrupulous boxing promoters, violent bookmakers, a Russian gangster, incompetent amateur robbers and supposedly Jewish jewelers fight to track down a priceless stolen diamond.",
-      "genre": "Comedy, Crime"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 79,
-    "fields": {
-      "title": "Smultronstället",
-      "release_date": "1959-06-22",
-      "description": "After living a life marked by coldness, an aging professor is forced to confront the emptiness of his existence.",
-      "genre": "Drama, Romance"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 80,
-    "fields": {
-      "title": "Singin&apos; in the Rain",
-      "release_date": "1952-04-11",
-      "description": "A silent film star falls for a chorus girl just as he and his delusionally jealous screen partner are trying to make the difficult transition to talking pictures in 1920s Hollywood.",
-      "genre": "Comedy, Musical, Romance"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 81,
-    "fields": {
-      "title": "Shutter Island",
-      "release_date": "2010-02-19",
-      "description": "In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane.",
-      "genre": "Mystery, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 82,
-    "fields": {
-      "title": "Shichinin no samurai",
-      "release_date": "1956-11-19",
-      "description": "Farmers from a village exploited by bandits hire a veteran samurai for protection, who gathers six other samurai to join him. As the samurai teach the peasants how to defend themselves, the village is attacked by an army of bandits.",
-      "genre": "Action, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 83,
-    "fields": {
-      "title": "Sherlock Jr.",
-      "release_date": "1924-05-11",
-      "description": "A film projectionist longs to be a detective, and puts his meagre skills to work when he is framed by a rival for stealing his girlfriend&apos;s father&apos;s pocketwatch.",
-      "genre": "Action, Comedy, Romance"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 84,
-    "fields": {
-      "title": "Seppuku",
-      "release_date": "1964-08-04",
-      "description": "When a ronin requesting seppuku at a feudal lord&apos;s palace is told of the brutal suicide of another ronin who previously visited, he reveals how their pasts are intertwined - and in doing so challenges the clan&apos;s integrity.",
-      "genre": "Action, Drama, Mystery"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 85,
-    "fields": {
-      "title": "Sen to Chihiro no kamikakushi",
-      "release_date": "2003-03-28",
-      "description": "During her family&apos;s move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
-      "genre": "Animation, Adventure, Family"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 86,
-    "fields": {
-      "title": "Se7en",
-      "release_date": "1995-09-22",
-      "description": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
-      "genre": "Crime, Drama, Mystery"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 87,
-    "fields": {
-      "title": "Schindler&apos;s List",
-      "release_date": "1994-02-04",
-      "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
-      "genre": "Biography, Drama, History"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 88,
-    "fields": {
-      "title": "Scarface",
-      "release_date": "1983-12-09",
-      "description": "In 1980 Miami, a determined Cuban immigrant takes over a drug cartel and succumbs to greed.",
-      "genre": "Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 89,
-    "fields": {
-      "title": "Saving Private Ryan",
-      "release_date": "1998-07-24",
-      "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
-      "genre": "Drama, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 90,
-    "fields": {
-      "title": "Salinui chueok",
-      "release_date": "2003-05-02",
-      "description": "In a small Korean province in 1986, two detectives struggle with the case of multiple young women being found raped and murdered by an unknown culprit.",
-      "genre": "Crime, Drama, Mystery"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 91,
-    "fields": {
-      "title": "Rush",
-      "release_date": "2013-09-27",
-      "description": "The merciless 1970s rivalry between Formula One rivals James Hunt and Niki Lauda.",
-      "genre": "Action, Biography, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 92,
-    "fields": {
-      "title": "Room",
-      "release_date": "2016-01-22",
-      "description": "Held captive for 7 years in an enclosed space, a woman and her young son finally gain their freedom, allowing the boy to experience the outside world for the first time.",
-      "genre": "Drama, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 93,
-    "fields": {
-      "title": "Rocky",
-      "release_date": "1976-12-03",
-      "description": "A small-time Philadelphia boxer gets a supremely rare chance to fight the world heavyweight champion in a bout in which he strives to go the distance for his self-respect.",
-      "genre": "Drama, Sport"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 94,
-    "fields": {
-      "title": "Reservoir Dogs",
-      "release_date": "1992-09-02",
-      "description": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
-      "genre": "Crime, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 95,
-    "fields": {
-      "title": "Requiem for a Dream",
-      "release_date": "2000-12-15",
-      "description": "The drug-induced utopias of four Coney Island people are shattered when their addictions run deep.",
-      "genre": "Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 96,
-    "fields": {
-      "title": "Relatos salvajes",
-      "release_date": "2014-08-21",
-      "description": "Six short stories that explore the extremities of human behavior involving people in distress.",
-      "genre": "Comedy, Drama, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 97,
-    "fields": {
-      "title": "Rebecca",
-      "release_date": "1940-04-12",
-      "description": "A self-conscious woman juggles adjusting to her new role as an aristocrat&apos;s wife and avoiding being intimidated by his first wife&apos;s spectral presence.",
-      "genre": "Drama, Film-Noir, Mystery"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 98,
-    "fields": {
-      "title": "Rear Window",
-      "release_date": "1954-09-01",
-      "description": "A wheelchair-bound photographer spies on his neighbors from his Greenwich Village courtyard apartment window, and becomes convinced one of them has committed murder, despite the skepticism of his fashion-model girlfriend.",
-      "genre": "Mystery, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 99,
-    "fields": {
-      "title": "Ratatouille",
-      "release_date": "2007-06-29",
-      "description": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous Paris restaurant.",
-      "genre": "Animation, Adventure, Comedy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 100,
-    "fields": {
-      "title": "Rashômon",
-      "release_date": "1951-12-26",
-      "description": "The rape of a bride and the murder of her samurai husband are recalled from the perspectives of a bandit, the bride, the samurai&apos;s ghost and a woodcutter.",
-      "genre": "Crime, Drama, Mystery"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 101,
-    "fields": {
-      "title": "Ran",
-      "release_date": "1985-06-01",
-      "description": "In Medieval Japan, an elderly warlord retires, handing over his empire to his three sons. However, he vastly underestimates how the new-found power will corrupt them and cause them to turn on each other...and him.",
-      "genre": "Action, Drama, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 102,
-    "fields": {
-      "title": "Raiders of the Lost Ark",
-      "release_date": "1981-06-12",
-      "description": "Archaeology professor Indiana Jones ventures to seize a biblical artefact known as the Ark of the Covenant. While doing so, he puts up a fight against Renee and a troop of Nazis.",
-      "genre": "Action, Adventure"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 103,
-    "fields": {
-      "title": "Raging Bull",
-      "release_date": "1980-12-19",
-      "description": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it.",
-      "genre": "Biography, Drama, Sport"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 104,
-    "fields": {
-      "title": "Pulp Fiction",
-      "release_date": "1994-10-14",
-      "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
-      "genre": "Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 105,
-    "fields": {
-      "title": "Psycho",
-      "release_date": "1960-09-08",
-      "description": "A Phoenix secretary embezzles $40,000 from her employer&apos;s client, goes on the run and checks into a remote motel run by a young man under the domination of his mother.",
-      "genre": "Horror, Mystery, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 106,
-    "fields": {
-      "title": "Prisoners",
-      "release_date": "2013-09-20",
-      "description": "When Keller Dover&apos;s daughter and her friend go missing, he takes matters into his own hands as the police pursue multiple leads and the pressure mounts.",
-      "genre": "Crime, Drama, Mystery"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 107,
-    "fields": {
-      "title": "Platoon",
-      "release_date": "1987-02-06",
-      "description": "Chris Taylor, a neophyte recruit in Vietnam, finds himself caught in a battle of wills between two sergeants, one good and the other evil. A shrewd examination of the brutality of war and the duality of man in conflict.",
-      "genre": "Drama, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 108,
-    "fields": {
-      "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
-      "release_date": "2003-07-09",
-      "description": "Blacksmith Will Turner teams up with eccentric pirate &quot;Captain&quot; Jack Sparrow to save his love, the governor&apos;s daughter, from Jack&apos;s former pirate allies, who are now undead.",
-      "genre": "Action, Adventure, Fantasy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 109,
-    "fields": {
-      "title": "Persona",
-      "release_date": "1967-03-16",
-      "description": "A nurse is put in charge of a mute actress and finds that their personae are melding together.",
-      "genre": "Drama, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 110,
-    "fields": {
-      "title": "Per qualche dollaro in più",
-      "release_date": "1967-05-10",
-      "description": "Two bounty hunters with the same intentions team up to track down an escaped Mexican outlaw.",
-      "genre": "Western"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 111,
-    "fields": {
-      "title": "Paths of Glory",
-      "release_date": "1957-12-25",
-      "description": "After refusing to attack an enemy position, a general accuses the soldiers of cowardice and their commanding officer must defend them.",
-      "genre": "Drama, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 112,
-    "fields": {
-      "title": "Pather Panchali",
-      "release_date": "1955-08-26",
-      "description": "Impoverished priest Harihar Ray, dreaming of a better life for himself and his family, leaves his rural Bengal village in search of work.",
-      "genre": "Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 113,
-    "fields": {
-      "title": "One Flew Over the Cuckoo&apos;s Nest",
-      "release_date": "1975-11-19",
-      "description": "In the Fall of 1963, a Korean War veteran and criminal pleads insanity and is admitted to a mental institution, where he rallies up the scared patients against the tyrannical nurse.",
-      "genre": "Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 114,
-    "fields": {
-      "title": "Once Upon a Time in America",
-      "release_date": "1984-06-01",
-      "description": "A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan 35 years later, where he must once again confront the ghosts and regrets of his old life.",
-      "genre": "Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 115,
-    "fields": {
-      "title": "On the Waterfront",
-      "release_date": "1954-06-22",
-      "description": "An ex-prize fighter turned New Jersey longshoreman struggles to stand up to his corrupt union bosses, including his older brother, as he starts to connect with the grieving sister of one of the syndicate&apos;s victims.",
-      "genre": "Crime, Drama, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 116,
-    "fields": {
-      "title": "Oldeuboi",
-      "release_date": "2003-11-21",
-      "description": "After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days.",
-      "genre": "Action, Drama, Mystery"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 117,
-    "fields": {
-      "title": "Nuovo Cinema Paradiso",
-      "release_date": "1990-02-23",
-      "description": "A filmmaker recalls his childhood when falling in love with the pictures at the cinema of his home village and forms a deep friendship with the cinema&apos;s projectionist.",
-      "genre": "Drama, Romance"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 118,
-    "fields": {
-      "title": "North by Northwest",
-      "release_date": "1959-12-18",
-      "description": "A New York City advertising executive goes on the run after being mistaken for a government agent by a group of foreign spies, and falls for a woman whose loyalties he begins to doubt.",
-      "genre": "Action, Adventure, Mystery"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 119,
-    "fields": {
-      "title": "No Country for Old Men",
-      "release_date": "2007-11-21",
-      "description": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.",
-      "genre": "Crime, Drama, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 120,
-    "fields": {
-      "title": "Network",
-      "release_date": "1976-11-27",
-      "description": "A television network cynically exploits a deranged former anchor&apos;s ravings and revelations about the news media for its own profit, but finds that his message may be difficult to control.",
-      "genre": "Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 121,
-    "fields": {
-      "title": "Mr. Smith Goes to Washington",
-      "release_date": "1939-10-19",
-      "description": "A naive youth leader is appointed to fill a vacancy in the U.S. Senate. His idealistic plans promptly collide with corruption at home and subterfuge from his hero in Washington, but he tries to forge ahead despite attacks on his c...",
-      "genre": "Comedy, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 122,
-    "fields": {
-      "title": "Monty Python and the Holy Grail",
-      "release_date": "1975-05-25",
-      "description": "King Arthur and his Knights of the Round Table embark on a surreal, low-budget search for the Holy Grail, encountering many, very silly obstacles.",
-      "genre": "Adventure, Comedy, Fantasy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 123,
-    "fields": {
-      "title": "Monsters, Inc.",
-      "release_date": "2001-11-02",
-      "description": "In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, two monsters realize things may not be what they think.",
-      "genre": "Animation, Adventure, Comedy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 124,
-    "fields": {
-      "title": "Mononoke-hime",
-      "release_date": "1997-12-19",
-      "description": "On a journey to find the cure for a Tatarigami&apos;s curse, Ashitaka finds himself in the middle of a war between the forest gods and Tatara, a mining colony. In this quest he also meets San, the Mononoke Hime.",
-      "genre": "Animation, Action, Adventure"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 125,
-    "fields": {
-      "title": "Modern Times",
-      "release_date": "1936-02-25",
-      "description": "The Tramp struggles to live in modern industrial society with the help of a young homeless woman.",
-      "genre": "Comedy, Drama, Romance"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 126,
-    "fields": {
-      "title": "Million Dollar Baby",
-      "release_date": "2005-01-28",
-      "description": "A determined woman works with a hardened boxing trainer to become a professional.",
-      "genre": "Drama, Sport"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 127,
-    "fields": {
-      "title": "Metropolis",
-      "release_date": "1927-03-13",
-      "description": "In a futuristic city sharply divided between the working class and the city planners, the son of the city&apos;s mastermind falls in love with a working-class prophet who predicts the coming of a savior to mediate their differences.",
-      "genre": "Drama, Sci-Fi"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 128,
-    "fields": {
-      "title": "Memento",
-      "release_date": "2001-05-25",
-      "description": "A man with short-term memory loss attempts to track down his wife&apos;s murderer.",
-      "genre": "Mystery, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 129,
-    "fields": {
-      "title": "Mary and Max.",
-      "release_date": "2010-03-12",
-      "description": "A tale of friendship between two unlikely pen pals: Mary, a lonely, eight-year-old girl living in the suburbs of Melbourne, and Max, a forty-four-year old, severely obese man living in New York.",
-      "genre": "Animation, Comedy, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 130,
-    "fields": {
-      "title": "Mad Max: Fury Road",
-      "release_date": "2015-05-15",
-      "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
-      "genre": "Action, Adventure, Sci-Fi"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 131,
-    "fields": {
-      "title": "M - Eine Stadt sucht einen Mörder",
-      "release_date": "1931-08-31",
-      "description": "When the police in a German city are unable to catch a child-murderer, other criminals join in the manhunt.",
-      "genre": "Crime, Mystery, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 132,
-    "fields": {
-      "title": "Léon",
-      "release_date": "1994-11-18",
-      "description": "12-year-old Mathilda is reluctantly taken in by Léon, a professional assassin, after her family is murdered. An unusual relationship forms as she becomes his protégée and learns the assassin&apos;s trade.",
-      "genre": "Action, Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 133,
-    "fields": {
-      "title": "Logan",
-      "release_date": "2017-03-03",
-      "description": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.",
-      "genre": "Action, Drama, Sci-Fi"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 134,
-    "fields": {
-      "title": "Lock, Stock and Two Smoking Barrels",
-      "release_date": "1998-08-28",
-      "description": "Eddy persuades his three pals to pool money for a vital poker game against a powerful local mobster, Hatchet Harry. Eddy loses, after which Harry gives him a week to pay back 500,000 pounds.",
-      "genre": "Action, Comedy, Crime"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 135,
-    "fields": {
-      "title": "Life of Brian",
-      "release_date": "1979-08-17",
-      "description": "Born on the original Christmas in the stable next door to Jesus Christ, Brian of Nazareth spends his life being mistaken for a messiah.",
-      "genre": "Comedy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 136,
-    "fields": {
-      "title": "Les quatre cents coups",
-      "release_date": "1959-11-16",
-      "description": "A young boy, left without attention, delves into a life of petty crime.",
-      "genre": "Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 137,
-    "fields": {
-      "title": "Le salaire de la peur",
-      "release_date": "1955-02-16",
-      "description": "In a decrepit South American village, four men are hired to transport an urgent nitroglycerine shipment without the equipment that would make it safe.",
-      "genre": "Adventure, Drama, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 138,
-    "fields": {
-      "title": "Le fabuleux destin d&apos;Amélie Poulain",
-      "release_date": "2002-02-08",
-      "description": "Amélie is an innocent and naive girl in Paris with her own sense of justice. She decides to help those around her and, along the way, discovers love.",
-      "genre": "Comedy, Romance"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 139,
-    "fields": {
-      "title": "Lawrence of Arabia",
-      "release_date": "1962-12-11",
-      "description": "The story of T.E. Lawrence, the English officer who successfully united and led the diverse, often warring, Arab tribes during World War I in order to fight the Turks.",
-      "genre": "Adventure, Biography, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 140,
-    "fields": {
-      "title": "Ladri di biciclette",
-      "release_date": "1949-12-13",
-      "description": "In post-war Italy, a working-class man&apos;s bicycle is stolen, endangering his efforts to find work. He and his son set out to find it.",
-      "genre": "Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 141,
-    "fields": {
-      "title": "La vita è bella",
-      "release_date": "1997-12-20",
-      "description": "When an open-minded Jewish waiter and his son become victims of the Holocaust, he uses a perfect mixture of will, humor, and imagination to protect his son from the dangers around their camp.",
-      "genre": "Comedy, Drama, Romance"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 142,
-    "fields": {
-      "title": "La passion de Jeanne d&apos;Arc",
-      "release_date": "1928-10-25",
-      "description": "In 1431, Jeanne d&apos;Arc is placed on trial on charges of heresy. The ecclesiastical jurists attempt to force Jeanne to recant her claims of holy visions.",
-      "genre": "Biography, Drama, History"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 143,
-    "fields": {
-      "title": "La haine",
-      "release_date": "1996-02-23",
-      "description": "24 hours in the lives of three young men in the French suburbs the day after a violent riot.",
-      "genre": "Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 144,
-    "fields": {
-      "title": "La battaglia di Algeri",
-      "release_date": "1967-09-20",
-      "description": "In the 1950s, fear and violence escalate as the people of Algiers fight for independence from the French government.",
-      "genre": "Drama, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 145,
-    "fields": {
-      "title": "L.A. Confidential",
-      "release_date": "1997-09-19",
-      "description": "As corruption grows in 1950s Los Angeles, three policemen - one strait-laced, one brutal, and one sleazy - investigate a series of murders with their own brand of justice.",
-      "genre": "Crime, Drama, Mystery"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 146,
-    "fields": {
-      "title": "Klaus",
-      "release_date": "2019-11-15",
-      "description": "A simple act of kindness always sparks another, even in a frozen, faraway place. When Smeerensburg&apos;s new postman, Jesper, befriends toymaker Klaus, their gifts melt an age-old feud and deliver a sleigh full of holiday traditions.",
-      "genre": "Animation, Adventure, Comedy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 147,
-    "fields": {
-      "title": "Kimi no Na wa.",
-      "release_date": "2017-04-07",
-      "description": "Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?",
-      "genre": "Animation, Drama, Fantasy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 148,
-    "fields": {
-      "title": "Kill Bill: Vol. 1",
-      "release_date": "2003-10-10",
-      "description": "After awakening from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.",
-      "genre": "Action, Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 149,
-    "fields": {
-      "title": "Jurassic Park",
-      "release_date": "1993-06-11",
-      "description": "A pragmatic paleontologist touring an almost complete theme park on an island in Central America is tasked with protecting a couple of kids after a power failure causes the park&apos;s cloned dinosaurs to run loose.",
-      "genre": "Action, Adventure, Sci-Fi"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 150,
-    "fields": {
-      "title": "Judgment at Nuremberg",
-      "release_date": "1961-12-18",
-      "description": "In 1948, an American court in occupied Germany tries four Nazis judged for war crimes.",
-      "genre": "Drama, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 151,
-    "fields": {
-      "title": "Joker",
-      "release_date": "2019-10-04",
-      "description": "A mentally troubled stand-up comedian embarks on a downward spiral that leads to the creation of an iconic villain.",
-      "genre": "Crime, Drama, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 152,
-    "fields": {
-      "title": "Jodaeiye Nader az Simin",
-      "release_date": "2011-03-16",
-      "description": "A married couple are faced with a difficult decision - to improve the life of their child by moving to another country or to stay in Iran and look after a deteriorating parent who has Alzheimer&apos;s disease.",
-      "genre": "Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 153,
-    "fields": {
-      "title": "Jaws",
-      "release_date": "1975-06-20",
-      "description": "When a killer shark unleashes chaos on a beach community off Cape Cod, it&apos;s up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.",
-      "genre": "Adventure, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 154,
-    "fields": {
-      "title": "Jai Bhim",
-      "release_date": "2021-11-02",
-      "description": "When a tribal man is arrested for a case of alleged theft, his wife turns to a human-rights lawyer to help bring justice.",
-      "genre": "Crime, Drama, Mystery"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 155,
-    "fields": {
-      "title": "Jagten",
-      "release_date": "2013-01-10",
-      "description": "A teacher lives a lonely life, all the while struggling over his son&apos;s custody. His life slowly gets better as he finds love and receives good news from his son, but his new luck is about to be brutally shattered by an innocent li...",
-      "genre": "Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 156,
-    "fields": {
-      "title": "It&apos;s a Wonderful Life",
-      "release_date": "1947-01-07",
-      "description": "An angel is sent from Heaven to help a desperately frustrated businessman by showing him what life would have been like if he had never existed.",
-      "genre": "Drama, Family, Fantasy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 157,
-    "fields": {
-      "title": "It Happened One Night",
-      "release_date": "1934-02-22",
-      "description": "A renegade reporter trailing a young runaway heiress for a big story joins her on a bus heading from Florida to New York, and they end up stuck with each other when the bus leaves them behind at one of the stops.",
-      "genre": "Comedy, Romance"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 158,
-    "fields": {
-      "title": "Intouchables",
-      "release_date": "2011-11-02",
-      "description": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
-      "genre": "Biography, Comedy, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 159,
-    "fields": {
-      "title": "Into the Wild",
-      "release_date": "2007-10-19",
-      "description": "After graduating from Emory University, top student and athlete Christopher McCandless abandons his possessions, gives his entire $24,000 savings account to charity and hitchhikes to Alaska to live in the wilderness. Along the way...",
-      "genre": "Adventure, Biography, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 160,
-    "fields": {
-      "title": "Interstellar",
-      "release_date": "2014-11-07",
-      "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity&apos;s survival.",
-      "genre": "Adventure, Drama, Sci-Fi"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 161,
-    "fields": {
-      "title": "Inside Out",
-      "release_date": "2015-06-19",
-      "description": "After young Riley is uprooted from her Midwest life and moved to San Francisco, her emotions - Joy, Fear, Anger, Disgust and Sadness - conflict on how best to navigate a new city, house, and school.",
-      "genre": "Animation, Adventure, Comedy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 162,
-    "fields": {
-      "title": "Inglourious Basterds",
-      "release_date": "2009-08-21",
-      "description": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner&apos;s vengeful plans for the same.",
-      "genre": "Adventure, Drama, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 163,
-    "fields": {
-      "title": "Indiana Jones and the Last Crusade",
-      "release_date": "1989-05-24",
-      "description": "In 1938, after his father Professor Henry Jones, Sr. goes missing while pursuing the Holy Grail, Professor Henry &quot;Indiana&quot; Jones, Jr. finds himself up against Adolf Hitler&apos;s Nazis again to stop them from obtaining its powers.",
-      "genre": "Action, Adventure"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 164,
-    "fields": {
-      "title": "Inception",
-      "release_date": "2010-07-16",
-      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
-      "genre": "Action, Adventure, Sci-Fi"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 165,
-    "fields": {
-      "title": "Incendies",
-      "release_date": "2011-01-12",
-      "description": "Twins journey to the Middle East to discover their family history and fulfill their mother&apos;s last wishes.",
-      "genre": "Drama, Mystery"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 166,
-    "fields": {
-      "title": "In the Name of the Father",
-      "release_date": "1994-02-25",
-      "description": "A man&apos;s coerced confession to an I.R.A. bombing he did not commit results in the imprisonment of his father as well. An English lawyer fights to free them.",
-      "genre": "Biography, Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 167,
-    "fields": {
-      "title": "Il buono, il brutto, il cattivo",
-      "release_date": "1967-12-29",
-      "description": "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
-      "genre": "Adventure, Western"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 168,
-    "fields": {
-      "title": "Ikiru",
-      "release_date": "1956-03-25",
-      "description": "A bureaucrat tries to find meaning in his life after he discovers he has terminal cancer.",
-      "genre": "Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 169,
-    "fields": {
-      "title": "Idi i smotri",
-      "release_date": "1985-09-03",
-      "description": "After finding an old rifle, a young boy joins the Soviet resistance movement against ruthless German forces and experiences the horrors of World War II.",
-      "genre": "Drama, Thriller, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 170,
-    "fields": {
-      "title": "How to Train Your Dragon",
-      "release_date": "2010-03-26",
-      "description": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
-      "genre": "Animation, Action, Adventure"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 171,
-    "fields": {
-      "title": "Hotel Rwanda",
-      "release_date": "2005-02-04",
-      "description": "Paul Rusesabagina, a hotel manager, houses over a thousand Tutsi refugees during their struggle against the Hutu militia in Rwanda, Africa.",
-      "genre": "Biography, Drama, History"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 172,
-    "fields": {
-      "title": "Hotaru no haka",
-      "release_date": "1989-07-26",
-      "description": "A young boy and his little sister struggle to survive in Japan during World War II.",
-      "genre": "Animation, Drama, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 173,
-    "fields": {
-      "title": "Heat",
-      "release_date": "1995-12-15",
-      "description": "A group of high-end professional thieves start to feel the heat from the LAPD when they unknowingly leave a clue at their latest heist.",
-      "genre": "Action, Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 174,
-    "fields": {
-      "title": "Hauru no ugoku shiro",
-      "release_date": "2005-06-17",
-      "description": "When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle.",
-      "genre": "Animation, Adventure, Family"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 175,
-    "fields": {
-      "title": "Harry Potter and the Deathly Hallows - Part 2",
-      "release_date": "2011-07-15",
-      "description": "Harry, Ron, and Hermione search for Voldemort&apos;s remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
-      "genre": "Adventure, Family, Fantasy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 176,
-    "fields": {
-      "title": "Hamilton",
-      "release_date": "2020-07-03",
-      "description": "The real life of one of America&apos;s foremost founding fathers and first Secretary of the Treasury, Alexander Hamilton. Captured live on Broadway from the Richard Rodgers Theater with the original Broadway cast.",
-      "genre": "Biography, Drama, History"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 177,
-    "fields": {
-      "title": "Hacksaw Ridge",
-      "release_date": "2016-11-04",
-      "description": "World War II American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people and becomes the first man in American history to receive the Medal of Honor without firing a shot.",
-      "genre": "Biography, Drama, History"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 178,
-    "fields": {
-      "title": "Hachi: A Dog&apos;s Tale",
-      "release_date": "2010-03-12",
-      "description": "A college professor bonds with an abandoned dog he takes into his home.",
-      "genre": "Biography, Drama, Family"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 179,
-    "fields": {
-      "title": "Groundhog Day",
-      "release_date": "1993-02-12",
-      "description": "A narcissistic, self-centered weatherman finds himself in a time loop on Groundhog Day, and the day keeps repeating until he gets it right.",
-      "genre": "Comedy, Drama, Fantasy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 180,
-    "fields": {
-      "title": "Green Book",
-      "release_date": "2018-11-16",
-      "description": "A working-class Italian-American bouncer becomes the driver for an African-American classical pianist on a tour of venues through the 1960s American South.",
-      "genre": "Biography, Comedy, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 181,
-    "fields": {
-      "title": "Gran Torino",
-      "release_date": "2009-01-09",
-      "description": "Disgruntled Korean War veteran Walt Kowalski sets out to reform his neighbor, Thao Lor, a Hmong teenager who tried to steal Kowalski&apos;s prized possession: a 1972 Gran Torino.",
-      "genre": "Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 182,
-    "fields": {
-      "title": "Goodfellas",
-      "release_date": "1990-09-21",
-      "description": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.",
-      "genre": "Biography, Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 183,
-    "fields": {
-      "title": "Good Will Hunting",
-      "release_date": "1998-01-09",
-      "description": "Will Hunting, a janitor at M.I.T., has a gift for mathematics, but needs help from a psychologist to find direction in his life.",
-      "genre": "Drama, Romance"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 184,
-    "fields": {
-      "title": "Gone with the Wind",
-      "release_date": "1940-01-17",
-      "description": "The manipulative daughter of a Georgia plantation owner conducts a turbulent romance with a roguish profiteer during the American Civil War and Reconstruction periods.",
-      "genre": "Drama, Romance, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 185,
-    "fields": {
-      "title": "Gone Girl",
-      "release_date": "2014-10-03",
-      "description": "With his wife&apos;s disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it&apos;s suspected that he may not be innocent.",
-      "genre": "Drama, Mystery, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 186,
-    "fields": {
-      "title": "Gladiator",
-      "release_date": "2000-05-05",
-      "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
-      "genre": "Action, Adventure, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 187,
-    "fields": {
-      "title": "Gisaengchung",
-      "release_date": "2019-11-08",
-      "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
-      "genre": "Drama, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 188,
-    "fields": {
-      "title": "Gandhi",
-      "release_date": "1983-02-25",
-      "description": "The life of the lawyer who became the famed leader of the Indian revolts against the British rule through his philosophy of nonviolent protest.",
-      "genre": "Biography, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 189,
-    "fields": {
-      "title": "Full Metal Jacket",
-      "release_date": "1987-07-10",
-      "description": "A pragmatic U.S. Marine observes the dehumanizing effects the Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.",
-      "genre": "Drama, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 190,
-    "fields": {
-      "title": "Forrest Gump",
-      "release_date": "1994-07-06",
-      "description": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood swe...",
-      "genre": "Drama, Romance"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 191,
-    "fields": {
-      "title": "Ford v Ferrari",
-      "release_date": "2019-11-15",
-      "description": "American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966.",
-      "genre": "Action, Biography, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 192,
-    "fields": {
-      "title": "Finding Nemo",
-      "release_date": "2003-05-30",
-      "description": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
-      "genre": "Animation, Adventure, Comedy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 193,
-    "fields": {
-      "title": "Fight Club",
-      "release_date": "1999-10-15",
-      "description": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
-      "genre": "Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 194,
-    "fields": {
-      "title": "Fargo",
-      "release_date": "1996-04-05",
-      "description": "Minnesota car salesman Jerry Lundegaard&apos;s inept crime falls apart due to his and his henchmen&apos;s bungling and the persistent police work of the quite pregnant Marge Gunderson.",
-      "genre": "Crime, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 195,
-    "fields": {
-      "title": "Everything Everywhere All at Once",
-      "release_date": "2022-03-25",
-      "description": "An aging Chinese immigrant is swept up in an insane adventure, in which she alone can save the world by exploring other universes connecting with the lives she could have led.",
-      "genre": "Action, Adventure, Comedy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 196,
-    "fields": {
-      "title": "Eternal Sunshine of the Spotless Mind",
-      "release_date": "2004-03-19",
-      "description": "When their relationship turns sour, a couple undergoes a medical procedure to have each other erased from their memories for ever.",
-      "genre": "Drama, Romance, Sci-Fi"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 197,
-    "fields": {
-      "title": "El secreto de sus ojos",
-      "release_date": "2010-05-21",
-      "description": "A retired legal counselor writes a novel hoping to find closure for one of his past unresolved homicide cases and for his unreciprocated love with his superior - both of which still haunt him decades later.",
-      "genre": "Drama, Mystery, Romance"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 198,
-    "fields": {
-      "title": "El laberinto del fauno",
-      "release_date": "2007-01-19",
-      "description": "In the Falangist Spain of 1944, the bookish young stepdaughter of a sadistic army officer escapes into an eerie but captivating fantasy world.",
-      "genre": "Drama, Fantasy, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 199,
-    "fields": {
-      "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
-      "release_date": "1964-01-29",
-      "description": "An insane American general orders a bombing attack on the Soviet Union, triggering a path to nuclear holocaust that a war room full of politicians and generals frantically tries to stop.",
-      "genre": "Comedy, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 200,
-    "fields": {
-      "title": "Double Indemnity",
-      "release_date": "1944-07-06",
-      "description": "A Los Angeles insurance representative lets an alluring housewife seduce him into a scheme of insurance fraud and murder that arouses the suspicion of his colleague, an insurance investigator.",
-      "genre": "Crime, Drama, Film-Noir"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 201,
-    "fields": {
-      "title": "Django Unchained",
-      "release_date": "2012-12-25",
-      "description": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation-owner in Mississippi.",
-      "genre": "Drama, Western"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 202,
-    "fields": {
-      "title": "Die Hard",
-      "release_date": "1988-07-20",
-      "description": "A New York City police officer tries to save his estranged wife and several others taken hostage by terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles.",
-      "genre": "Action, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 203,
-    "fields": {
-      "title": "Dial M for Murder",
-      "release_date": "1954-05-29",
-      "description": "A former tennis star arranges the murder of his adulterous wife.",
-      "genre": "Crime, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 204,
-    "fields": {
-      "title": "Det sjunde inseglet",
-      "release_date": "1958-10-13",
-      "description": "A knight returning to Sweden after the Crusades seeks answers about life, death, and the existence of God as he plays chess against the Grim Reaper during the Black Plague.",
-      "genre": "Drama, Fantasy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 205,
-    "fields": {
-      "title": "Dersu Uzala",
-      "release_date": "1977-12-20",
-      "description": "The Russian army sends an explorer on an expedition to the snowy Siberian wilderness where he makes friends with a seasoned local hunter.",
-      "genre": "Adventure, Biography, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 206,
-    "fields": {
-      "title": "Der Untergang",
-      "release_date": "2005-04-08",
-      "description": "Traudl Junge, the final secretary for Adolf Hitler, tells of the Nazi dictator&apos;s final days in his Berlin bunker at the end of WWII.",
-      "genre": "Biography, Drama, History"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 207,
-    "fields": {
-      "title": "Dead Poets Society",
-      "release_date": "1989-06-09",
-      "description": "Maverick teacher John Keating uses poetry to embolden his boarding school students to new heights of self-expression.",
-      "genre": "Comedy, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 208,
-    "fields": {
-      "title": "Das Leben der Anderen",
-      "release_date": "2007-03-30",
-      "description": "In 1984 East Berlin, an agent of the secret police, conducting surveillance on a writer and his lover, finds himself becoming increasingly absorbed by their lives.",
-      "genre": "Drama, Mystery, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 209,
-    "fields": {
-      "title": "Das Boot",
-      "release_date": "1982-02-10",
-      "description": "A German U-boat stalks the frigid waters of the North Atlantic as its young crew experience the sheer terror and claustrophobic life of a submariner in World War II.",
-      "genre": "Drama, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 210,
-    "fields": {
-      "title": "Dangal",
-      "release_date": "2016-12-21",
-      "description": "Former wrestler Mahavir Singh Phogat and his two wrestler daughters struggle towards glory at the Commonwealth Games in the face of societal oppression.",
-      "genre": "Action, Biography, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 211,
-    "fields": {
-      "title": "Cool Hand Luke",
-      "release_date": "1967-11-01",
-      "description": "A laid back Southern man is sentenced to two years in a rural prison, but refuses to conform.",
-      "genre": "Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 212,
-    "fields": {
-      "title": "Coco",
-      "release_date": "2017-11-22",
-      "description": "Aspiring musician Miguel, confronted with his family&apos;s ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.",
-      "genre": "Animation, Adventure, Comedy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 213,
-    "fields": {
-      "title": "City Lights",
-      "release_date": "1931-03-07",
-      "description": "With the aid of a wealthy erratic tippler, a dewy-eyed tramp who has fallen in love with a sightless flower girl accumulates money to be able to help her medically.",
-      "genre": "Comedy, Drama, Romance"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 214,
-    "fields": {
-      "title": "Citizen Kane",
-      "release_date": "1941-09-05",
-      "description": "Following the death of publishing tycoon Charles Foster Kane, reporters scramble to uncover the meaning of his final utterance: &apos;Rosebud.&apos;",
-      "genre": "Drama, Mystery"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 215,
-    "fields": {
-      "title": "Cidade de Deus",
-      "release_date": "2004-02-13",
-      "description": "In the slums of Rio, two kids&apos; paths diverge as one struggles to become a photographer and the other a kingpin.",
-      "genre": "Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 216,
-    "fields": {
-      "title": "Chinatown",
-      "release_date": "1974-06-20",
-      "description": "A private detective hired to expose an adulterer in 1930s Los Angeles finds himself caught up in a web of deceit, corruption, and murder.",
-      "genre": "Drama, Mystery, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 217,
-    "fields": {
-      "title": "Catch Me If You Can",
-      "release_date": "2002-12-25",
-      "description": "Barely 21 yet, Frank is a skilled forger who has passed as a doctor, lawyer and pilot. FBI agent Carl becomes obsessed with tracking down the con man, who only revels in the pursuit.",
-      "genre": "Biography, Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 218,
-    "fields": {
-      "title": "Casino",
-      "release_date": "1995-11-22",
-      "description": "A tale of greed, deception, money, power, and murder occur between two best friends: a mafia enforcer and a casino executive compete against each other over a gambling empire, and over a fast-living and fast-loving socialite.",
-      "genre": "Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 219,
-    "fields": {
-      "title": "Casablanca",
-      "release_date": "1943-01-23",
-      "description": "A cynical expatriate American cafe owner struggles to decide whether or not to help his former lover and her fugitive husband escape the Nazis in French Morocco.",
-      "genre": "Drama, Romance, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 220,
-    "fields": {
-      "title": "Capharnaüm",
-      "release_date": "2018-09-20",
-      "description": "While serving a five-year sentence for a violent crime, a 12-year-old boy sues his parents for neglect.",
-      "genre": "Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 221,
-    "fields": {
-      "title": "C&apos;era una volta il West",
-      "release_date": "1969-07-04",
-      "description": "A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.",
-      "genre": "Western"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 222,
-    "fields": {
-      "title": "Braveheart",
-      "release_date": "1995-05-24",
-      "description": "Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from the tyranny of King Edward I of England.",
-      "genre": "Biography, Drama, History"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 223,
-    "fields": {
-      "title": "Blade Runner",
-      "release_date": "1982-06-25",
-      "description": "A blade runner must pursue and terminate four replicants who stole a ship in space and have returned to Earth to find their creator.",
-      "genre": "Action, Drama, Sci-Fi"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 224,
-    "fields": {
-      "title": "Ben-Hur",
-      "release_date": "1959-11-18",
-      "description": "After a Jewish prince is betrayed and sent into slavery by a Roman friend in 1st-century Jerusalem, he regains his freedom and comes back for revenge.",
-      "genre": "Adventure, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 225,
-    "fields": {
-      "title": "Before Sunset",
-      "release_date": "2004-07-30",
-      "description": "Nine years after Jesse and Celine first met, they encounter each other again on the French leg of Jesse&apos;s book tour.",
-      "genre": "Drama, Romance"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 226,
-    "fields": {
-      "title": "Before Sunrise",
-      "release_date": "1995-01-27",
-      "description": "A young man and woman meet on a train in Europe, and wind up spending one evening together in Vienna. Unfortunately, both know that this will probably be their only night together.",
-      "genre": "Drama, Romance"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 227,
-    "fields": {
-      "title": "Batman Begins",
-      "release_date": "2005-06-15",
-      "description": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
-      "genre": "Action, Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 228,
-    "fields": {
-      "title": "Barry Lyndon",
-      "release_date": "1975-12-18",
-      "description": "An Irish rogue wins the heart of a rich widow and assumes her dead husband&apos;s aristocratic position in 18th-century England.",
-      "genre": "Adventure, Drama, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 229,
-    "fields": {
-      "title": "Back to the Future",
-      "release_date": "1985-07-03",
-      "description": "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
-      "genre": "Adventure, Comedy, Sci-Fi"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 230,
-    "fields": {
-      "title": "Bacheha-Ye aseman",
-      "release_date": "1999-01-22",
-      "description": "After a boy loses his sister&apos;s pair of shoes, he goes on a series of adventures in order to find them. When he can&apos;t, he tries a new way to &quot;win&quot; a new pair.",
-      "genre": "Drama, Family, Sport"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 231,
-    "fields": {
-      "title": "Babam ve Oglum",
-      "release_date": "2005-11-18",
-      "description": "The family of a left-wing journalist is torn apart after the military coup of Turkey in 1980.",
-      "genre": "Drama, Family"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 232,
-    "fields": {
-      "title": "Avengers: Infinity War",
-      "release_date": "2018-04-27",
-      "description": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
-      "genre": "Action, Adventure, Sci-Fi"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 233,
-    "fields": {
-      "title": "Avengers: Endgame",
-      "release_date": "2019-04-26",
-      "description": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos&apos; actions and restore balance to the universe.",
-      "genre": "Action, Adventure, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 234,
-    "fields": {
-      "title": "Apocalypse Now",
-      "release_date": "1979-08-15",
-      "description": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god.",
-      "genre": "Drama, Mystery, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 235,
-    "fields": {
-      "title": "Amores perros",
-      "release_date": "2001-04-13",
-      "description": "A horrific car accident connects three stories, each involving characters dealing with loss, regret, and life&apos;s harsh realities, all in the name of love.",
-      "genre": "Drama, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 236,
-    "fields": {
-      "title": "American History X",
-      "release_date": "1998-11-20",
-      "description": "A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did.",
-      "genre": "Crime, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 237,
-    "fields": {
-      "title": "American Beauty",
-      "release_date": "1999-10-01",
-      "description": "A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter&apos;s best friend.",
-      "genre": "Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 238,
-    "fields": {
-      "title": "Amadeus",
-      "release_date": "1984-09-19",
-      "description": "The life, success and troubles of Wolfgang Amadeus Mozart, as told by Antonio Salieri, the contemporaneous composer who was deeply jealous of Mozart&apos;s talent and claimed to have murdered him.",
-      "genre": "Biography, Drama, Music"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 239,
-    "fields": {
-      "title": "All About Eve",
-      "release_date": "1950-10-27",
-      "description": "A seemingly timid but secretly ruthless ingénue insinuates herself into the lives of an aging Broadway star and her circle of theater friends.",
-      "genre": "Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 240,
-    "fields": {
-      "title": "Aliens",
-      "release_date": "1986-07-18",
-      "description": "Fifty-seven years after surviving an apocalyptic attack aboard her space vessel by merciless space creatures, Officer Ripley awakens from hyper-sleep and tries to warn anyone who will listen about the predators.",
-      "genre": "Action, Adventure, Sci-Fi"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 241,
-    "fields": {
-      "title": "Alien",
-      "release_date": "1979-06-22",
-      "description": "The crew of a commercial spacecraft encounter a deadly lifeform after investigating an unknown transmission.",
-      "genre": "Horror, Sci-Fi"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 242,
-    "fields": {
-      "title": "Aladdin",
-      "release_date": "1992-11-25",
-      "description": "A kindhearted street urchin and a power-hungry Grand Vizier vie for a magic lamp that has the power to make their deepest wishes come true.",
-      "genre": "Animation, Adventure, Comedy"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 243,
-    "fields": {
-      "title": "Ah-ga-ssi",
-      "release_date": "2016-06-01",
-      "description": "A woman is hired as a handmaiden to a Japanese heiress, but secretly she is involved in a plot to defraud her.",
-      "genre": "Drama, Romance, Thriller"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 244,
-    "fields": {
-      "title": "A Clockwork Orange",
-      "release_date": "1972-02-02",
-      "description": "In the future, a sadistic gang leader is imprisoned and volunteers for a conduct-aversion experiment, but it doesn&apos;t go as planned.",
-      "genre": "Crime, Sci-Fi"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 245,
-    "fields": {
-      "title": "A Beautiful Mind",
-      "release_date": "2002-01-04",
-      "description": "After John Nash, a brilliant but asocial mathematician, accepts secret work in cryptography, his life takes a turn for the nightmarish.",
-      "genre": "Biography, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 246,
-    "fields": {
-      "title": "3 Idiots",
-      "release_date": "2009-12-25",
-      "description": "Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them &quot;idiots&quot;.",
-      "genre": "Comedy, Drama"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 247,
-    "fields": {
-      "title": "2001: A Space Odyssey",
-      "release_date": "1970-06-24",
-      "description": "After uncovering a mysterious artifact buried beneath the Lunar surface, a spacecraft is sent to Jupiter to find its origins - a spacecraft manned by two men and the supercomputer H.A.L. 9000.",
-      "genre": "Adventure, Sci-Fi"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 248,
-    "fields": {
-      "title": "1917",
-      "release_date": "2020-01-10",
-      "description": "April 6th, 1917. As an infantry battalion assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap.",
-      "genre": "Action, Drama, War"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 249,
-    "fields": {
-      "title": "12 Years a Slave",
-      "release_date": "2013-11-08",
-      "description": "In the antebellum United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery.",
-      "genre": "Biography, Drama, History"
-    }
-  },
-  {
-    "model": "homepage.Movie",
-    "pk": 250,
-    "fields": {
-      "title": "12 Angry Men",
-      "release_date": "1957-04-10",
-      "description": "The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict.",
-      "genre": "Crime, Drama"
-    }
-  }
+ {
+   "model": "homepage.Movie",
+   "pk": 1,
+   "fields": {
+     "title": "Yôjinbô",
+     "release_date": "1961-09-13",
+     "description": "A crafty ronin comes to a town divided by two criminal gangs and decides to play them against each other to free the town.",
+     "genre": "Action, Drama, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 2,
+   "fields": {
+     "title": "Witness for the Prosecution",
+     "release_date": "1958-02-06",
+     "description": "A veteran British barrister must defend his client in a murder trial that has surprise after surprise.",
+     "genre": "Crime, Drama, Mystery",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 3,
+   "fields": {
+     "title": "Whiplash",
+     "release_date": "2014-10-15",
+     "description": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student&apos;s potential.",
+     "genre": "Drama, Music",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 4,
+   "fields": {
+     "title": "Warrior",
+     "release_date": "2011-09-09",
+     "description": "The youngest son of an alcoholic former boxer returns home, where he&apos;s trained by his father for competition in a mixed martial arts tournament - a path that puts the fighter on a collision course with his estranged, older brother.",
+     "genre": "Action, Drama, Sport",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 5,
+   "fields": {
+     "title": "WALL·E",
+     "release_date": "2008-06-27",
+     "description": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+     "genre": "Animation, Adventure, Family",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 6,
+   "fields": {
+     "title": "Vertigo",
+     "release_date": "1958-05-22",
+     "description": "A former San Francisco police detective juggles wrestling with his personal demons and becoming obsessed with the hauntingly beautiful woman he has been hired to trail, who may be deeply disturbed.",
+     "genre": "Mystery, Romance, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 7,
+   "fields": {
+     "title": "V for Vendetta",
+     "release_date": "2006-03-17",
+     "description": "In a future British dystopian society, a shadowy freedom fighter, known only by the alias of &quot;V&quot;, plots to overthrow the tyrannical government - with the help of a young woman.",
+     "genre": "Action, Drama, Sci-Fi",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 8,
+   "fields": {
+     "title": "Up",
+     "release_date": "2009-05-29",
+     "description": "78-year-old Carl Fredricksen travels to Paradise Falls in his house equipped with balloons, inadvertently taking a young stowaway.",
+     "genre": "Animation, Adventure, Comedy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 9,
+   "fields": {
+     "title": "Unforgiven",
+     "release_date": "1992-08-07",
+     "description": "Retired Old West gunslinger William Munny reluctantly takes on one last job, with the help of his old partner Ned Logan and a young man, The &quot;Schofield Kid.&quot;",
+     "genre": "Drama, Western",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 10,
+   "fields": {
+     "title": "Tôkyô monogatari",
+     "release_date": "1972-03-13",
+     "description": "An old couple visit their children and grandchildren in the city, but receive little attention.",
+     "genre": "Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 11,
+   "fields": {
+     "title": "Trainspotting",
+     "release_date": "1996-08-09",
+     "description": "Renton, deeply immersed in the Edinburgh drug scene, tries to clean up and get out, despite the allure of the drugs and influence of friends.",
+     "genre": "Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 12,
+   "fields": {
+     "title": "Toy Story 3",
+     "release_date": "2010-06-18",
+     "description": "The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it&apos;s up to Woody to convince the other toys that they weren&apos;t abandoned and to return home.",
+     "genre": "Animation, Adventure, Comedy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 13,
+   "fields": {
+     "title": "Toy Story",
+     "release_date": "1995-11-22",
+     "description": "A cowboy doll is profoundly threatened and jealous when a new spaceman action figure supplants him as top toy in a boy&apos;s bedroom.",
+     "genre": "Animation, Adventure, Comedy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 14,
+   "fields": {
+     "title": "Top Gun: Maverick",
+     "release_date": "2022-05-27",
+     "description": "After thirty years, Maverick is still pushing the envelope as a top naval aviator, but must confront ghosts of his past when he leads TOP GUN&apos;s elite graduates on a mission that demands the ultimate sacrifice from those chosen to ...",
+     "genre": "Action, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 15,
+   "fields": {
+     "title": "Tonari no Totoro",
+     "release_date": "1990-07-13",
+     "description": "When two girls move to the country to be near their ailing mother, they have adventures with the wondrous forest spirits who live nearby.",
+     "genre": "Animation, Comedy, Family",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 16,
+   "fields": {
+     "title": "To Kill a Mockingbird",
+     "release_date": "1963-03-16",
+     "description": "Atticus Finch, a widowed lawyer in Depression-era Alabama, defends a black man against an undeserved rape charge, and his children against prejudice.",
+     "genre": "Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 17,
+   "fields": {
+     "title": "To Be or Not to Be",
+     "release_date": "1942-03-06",
+     "description": "During the Nazi occupation of Poland, an acting troupe becomes embroiled in a Polish soldier&apos;s efforts to track down a German spy.",
+     "genre": "Comedy, Romance, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 18,
+   "fields": {
+     "title": "Three Billboards Outside Ebbing, Missouri",
+     "release_date": "2017-12-01",
+     "description": "A mother personally challenges the local authorities to solve her daughter&apos;s murder when they fail to catch the culprit.",
+     "genre": "Comedy, Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 19,
+   "fields": {
+     "title": "There Will Be Blood",
+     "release_date": "2008-01-25",
+     "description": "A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business.",
+     "genre": "Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 20,
+   "fields": {
+     "title": "The Wolf of Wall Street",
+     "release_date": "2013-12-25",
+     "description": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
+     "genre": "Biography, Comedy, Crime",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 21,
+   "fields": {
+     "title": "The Wizard of Oz",
+     "release_date": "1939-08-25",
+     "description": "Young Dorothy Gale and her dog Toto are swept away by a tornado from their Kansas farm to the magical Land of Oz, and embark on a quest with three new friends to see the Wizard, who can return her to her home and fulfill the other...",
+     "genre": "Adventure, Family, Fantasy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 22,
+   "fields": {
+     "title": "The Usual Suspects",
+     "release_date": "1995-08-16",
+     "description": "A sole survivor tells of the twisty events leading up to a horrific gun battle on a boat, which began when five criminals met at a seemingly random police lineup.",
+     "genre": "Crime, Drama, Mystery",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 23,
+   "fields": {
+     "title": "The Truman Show",
+     "release_date": "1998-06-05",
+     "description": "An insurance salesman discovers his whole life is actually a reality TV show.",
+     "genre": "Comedy, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 24,
+   "fields": {
+     "title": "The Treasure of the Sierra Madre",
+     "release_date": "1948-01-24",
+     "description": "Two down-on-their-luck Americans searching for work in 1920s Mexico convince an old prospector to help them mine for gold in the Sierra Madre Mountains.",
+     "genre": "Adventure, Drama, Western",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 25,
+   "fields": {
+     "title": "The Third Man",
+     "release_date": "1949-09-03",
+     "description": "Pulp novelist Holly Martins travels to shadowy, postwar Vienna, only to find himself investigating the mysterious death of an old friend, Harry Lime.",
+     "genre": "Film-Noir, Mystery, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 26,
+   "fields": {
+     "title": "The Thing",
+     "release_date": "1982-06-25",
+     "description": "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.",
+     "genre": "Horror, Mystery, Sci-Fi",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 27,
+   "fields": {
+     "title": "The Terminator",
+     "release_date": "1984-10-26",
+     "description": "A human soldier is sent from 2029 to 1984 to stop an almost indestructible cyborg killing machine, sent from the same year, which has been programmed to execute a young woman whose unborn son is the key to humanity&apos;s future salvat...",
+     "genre": "Action, Sci-Fi",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 28,
+   "fields": {
+     "title": "The Sting",
+     "release_date": "1973-12-25",
+     "description": "Two grifters team up to pull off the ultimate con.",
+     "genre": "Comedy, Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 29,
+   "fields": {
+     "title": "The Sound of Music",
+     "release_date": "1965-04-01",
+     "description": "A young novitiate is sent by her convent in 1930s Austria to become a governess to the seven children of a widowed naval officer.",
+     "genre": "Biography, Drama, Family",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 30,
+   "fields": {
+     "title": "The Sixth Sense",
+     "release_date": "1999-08-06",
+     "description": "A frightened, withdrawn Philadelphia boy who communicates with spirits seeks the help of a disheartened child psychologist.",
+     "genre": "Drama, Mystery, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 31,
+   "fields": {
+     "title": "The Silence of the Lambs",
+     "release_date": "1991-02-14",
+     "description": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
+     "genre": "Crime, Drama, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 32,
+   "fields": {
+     "title": "The Shining",
+     "release_date": "1980-06-13",
+     "description": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",
+     "genre": "Drama, Horror",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 33,
+   "fields": {
+     "title": "The Shawshank Redemption",
+     "release_date": "1994-10-14",
+     "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+     "genre": "Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 34,
+   "fields": {
+     "title": "The Prestige",
+     "release_date": "2006-10-20",
+     "description": "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+     "genre": "Drama, Mystery, Sci-Fi",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 35,
+   "fields": {
+     "title": "The Pianist",
+     "release_date": "2003-03-28",
+     "description": "A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.",
+     "genre": "Biography, Drama, Music",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 36,
+   "fields": {
+     "title": "The Matrix",
+     "release_date": "1999-03-31",
+     "description": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+     "genre": "Action, Sci-Fi",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 37,
+   "fields": {
+     "title": "The Lord of the Rings: The Two Towers",
+     "release_date": "2002-12-18",
+     "description": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron&apos;s new ally, Saruman, and his hordes of Isengard.",
+     "genre": "Action, Adventure, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 38,
+   "fields": {
+     "title": "The Lord of the Rings: The Return of the King",
+     "release_date": "2003-12-17",
+     "description": "Gandalf and Aragorn lead the World of Men against Sauron&apos;s army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+     "genre": "Action, Adventure, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 39,
+   "fields": {
+     "title": "The Lord of the Rings: The Fellowship of the Ring",
+     "release_date": "2001-12-19",
+     "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+     "genre": "Action, Adventure, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 40,
+   "fields": {
+     "title": "The Lion King",
+     "release_date": "1994-06-24",
+     "description": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
+     "genre": "Animation, Adventure, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 41,
+   "fields": {
+     "title": "The Kid",
+     "release_date": "1921-02-06",
+     "description": "The Tramp cares for an abandoned child, but events put their relationship in jeopardy.",
+     "genre": "Comedy, Drama, Family",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 42,
+   "fields": {
+     "title": "The Iron Giant",
+     "release_date": "1999-08-06",
+     "description": "A young boy befriends a giant robot from outer space that a paranoid government agent wants to destroy.",
+     "genre": "Animation, Action, Adventure",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 43,
+   "fields": {
+     "title": "The Incredibles",
+     "release_date": "2004-11-05",
+     "description": "While trying to lead a quiet suburban life, a family of undercover superheroes are forced into action to save the world.",
+     "genre": "Animation, Action, Adventure",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 44,
+   "fields": {
+     "title": "The Help",
+     "release_date": "2011-08-10",
+     "description": "An aspiring author during the civil rights movement of the 1960s decides to write a book detailing the African American maids&apos; point of view on the white families for which they work, and the hardships they go through on a daily b...",
+     "genre": "Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 45,
+   "fields": {
+     "title": "The Green Mile",
+     "release_date": "1999-12-10",
+     "description": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",
+     "genre": "Crime, Drama, Fantasy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 46,
+   "fields": {
+     "title": "The Great Escape",
+     "release_date": "1963-07-04",
+     "description": "Allied prisoners of war plan for several hundred of their number to escape from a German camp during World War II.",
+     "genre": "Adventure, Drama, History",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 47,
+   "fields": {
+     "title": "The Great Dictator",
+     "release_date": "1941-03-07",
+     "description": "Dictator Adenoid Hynkel tries to expand his empire while a poor Jewish barber tries to avoid persecution from Hynkel&apos;s regime.",
+     "genre": "Comedy, Drama, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 48,
+   "fields": {
+     "title": "The Grapes of Wrath",
+     "release_date": "1940-03-15",
+     "description": "An Oklahoma family, driven off their farm by the poverty and hopelessness of the Dust Bowl, joins the westward migration to California, suffering the misfortunes of the homeless in the Great Depression.",
+     "genre": "Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 49,
+   "fields": {
+     "title": "The Grand Budapest Hotel",
+     "release_date": "2014-03-28",
+     "description": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel&apos;s glorious years under an exceptional concierge.",
+     "genre": "Adventure, Comedy, Crime",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 50,
+   "fields": {
+     "title": "The Gold Rush",
+     "release_date": "1925-07-13",
+     "description": "A prospector goes to the Klondike during the 1890s gold rush in hopes of making his fortune, and is smitten with a girl he sees in a dance hall.",
+     "genre": "Adventure, Comedy, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 51,
+   "fields": {
+     "title": "The Godfather Part II",
+     "release_date": "1974-12-18",
+     "description": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
+     "genre": "Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 52,
+   "fields": {
+     "title": "The Godfather",
+     "release_date": "1972-03-24",
+     "description": "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son.",
+     "genre": "Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 53,
+   "fields": {
+     "title": "The General",
+     "release_date": "1927-01-02",
+     "description": "After being rejected by the Confederate military, not realizing it was due to his crucial civilian role, an engineer must single-handedly recapture his beloved locomotive after it is seized by Union spies and return it through ene...",
+     "genre": "Action, Adventure, Comedy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 54,
+   "fields": {
+     "title": "The Father",
+     "release_date": "2021-02-26",
+     "description": "A man refuses all assistance from his daughter as he ages. As he tries to make sense of his changing circumstances, he begins to doubt his loved ones, his own mind and even the fabric of his reality.",
+     "genre": "Drama, Mystery",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 55,
+   "fields": {
+     "title": "The Exorcist",
+     "release_date": "1973-12-26",
+     "description": "When a teenage girl is possessed by a mysterious entity, her mother seeks the help of two priests to save her daughter.",
+     "genre": "Horror",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 56,
+   "fields": {
+     "title": "The Empire Strikes Back",
+     "release_date": "1980-06-20",
+     "description": "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued across the galaxy by Darth Vader and bounty hunter Boba Fett.",
+     "genre": "Action, Adventure, Fantasy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 57,
+   "fields": {
+     "title": "The Elephant Man",
+     "release_date": "1980-10-10",
+     "description": "A Victorian surgeon rescues a heavily disfigured man who is mistreated while scraping a living as a side-show freak. Behind his monstrous façade, there is revealed a person of kindness, intelligence and sophistication.",
+     "genre": "Biography, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 58,
+   "fields": {
+     "title": "The Departed",
+     "release_date": "2006-10-06",
+     "description": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+     "genre": "Crime, Drama, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 59,
+   "fields": {
+     "title": "The Deer Hunter",
+     "release_date": "1979-02-23",
+     "description": "An in-depth examination of the ways in which the Vietnam War impacts and disrupts the lives of several friends in a small steel mill town in Pennsylvania.",
+     "genre": "Drama, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 60,
+   "fields": {
+     "title": "The Dark Knight Rises",
+     "release_date": "2012-07-20",
+     "description": "Eight years after the Joker&apos;s reign of anarchy, Batman, with the help of the enigmatic Selina Kyle, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane.",
+     "genre": "Action, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 61,
+   "fields": {
+     "title": "The Dark Knight",
+     "release_date": "2008-07-18",
+     "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+     "genre": "Action, Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 62,
+   "fields": {
+     "title": "The Bridge on the River Kwai",
+     "release_date": "1957-12-14",
+     "description": "British POWs are forced to build a railway bridge across the river Kwai for their Japanese captors in occupied Burma, not knowing that the allied forces are planning a daring commando raid through the jungle to destroy it.",
+     "genre": "Adventure, Drama, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 63,
+   "fields": {
+     "title": "The Big Lebowski",
+     "release_date": "1998-03-06",
+     "description": "Ultimate L.A. slacker Jeff &quot;The Dude&quot; Lebowski, mistaken for a millionaire of the same name, seeks restitution for a rug ruined by debt collectors, enlisting his bowling buddies for help while trying to find the millionaire&apos;s miss...",
+     "genre": "Comedy, Crime",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 64,
+   "fields": {
+     "title": "The Best Years of Our Lives",
+     "release_date": "1947-05-29",
+     "description": "Three World War II veterans, two of them traumatized or disabled, return home to the American midwest to discover that they and their families have been irreparably changed.",
+     "genre": "Drama, Romance, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 65,
+   "fields": {
+     "title": "The Apartment",
+     "release_date": "1960-06-29",
+     "description": "A Manhattan insurance clerk tries to rise in his company by letting its executives use his apartment for trysts, but complications and a romance of his own ensue.",
+     "genre": "Comedy, Drama, Romance",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 66,
+   "fields": {
+     "title": "Terminator 2: Judgment Day",
+     "release_date": "1991-07-03",
+     "description": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her 10-year old adolescent son John from an even more advanced and powerful cyborg.",
+     "genre": "Action, Sci-Fi",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 67,
+   "fields": {
+     "title": "Tengoku to jigoku",
+     "release_date": "1963-11-26",
+     "description": "An executive of a Yokohama shoe company becomes a victim of extortion when his chauffeur&apos;s son is kidnapped by mistake and held for ransom.",
+     "genre": "Crime, Drama, Mystery",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 68,
+   "fields": {
+     "title": "Taxi Driver",
+     "release_date": "1976-02-09",
+     "description": "A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action.",
+     "genre": "Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 69,
+   "fields": {
+     "title": "Taare Zameen Par",
+     "release_date": "2007-12-21",
+     "description": "An eight-year-old boy is thought to be a lazy trouble-maker, until the new art teacher has the patience and compassion to discover the real problem behind his struggles in school.",
+     "genre": "Drama, Family",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 70,
+   "fields": {
+     "title": "Sunset Blvd.",
+     "release_date": "1950-08-04",
+     "description": "A screenwriter develops a dangerous relationship with a faded film star determined to make a triumphant return.",
+     "genre": "Drama, Film-Noir",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 71,
+   "fields": {
+     "title": "Star Wars: Episode VI - Return of the Jedi",
+     "release_date": "1983-05-25",
+     "description": "After a daring mission to rescue Han Solo from Jabba the Hutt, the Rebels dispatch to Endor to destroy the second Death Star. Meanwhile, Luke struggles to help Darth Vader back from the dark side without falling into the Emperor&apos;s...",
+     "genre": "Action, Adventure, Fantasy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 72,
+   "fields": {
+     "title": "Star Wars",
+     "release_date": "1977-05-25",
+     "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire&apos;s world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth ...",
+     "genre": "Action, Adventure, Fantasy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 73,
+   "fields": {
+     "title": "Stand by Me",
+     "release_date": "1986-08-22",
+     "description": "After the death of one of his friends, a writer recounts a childhood journey with his friends to find the body of a missing boy.",
+     "genre": "Adventure, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 74,
+   "fields": {
+     "title": "Spotlight",
+     "release_date": "2015-11-20",
+     "description": "The true story of how the Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese, shaking the entire Catholic Church to its core.",
+     "genre": "Biography, Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 75,
+   "fields": {
+     "title": "Spider-Man: No Way Home",
+     "release_date": "2021-12-17",
+     "description": "With Spider-Man&apos;s identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.",
+     "genre": "Action, Adventure, Fantasy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 76,
+   "fields": {
+     "title": "Spider-Man: Into the Spider-Verse",
+     "release_date": "2018-12-14",
+     "description": "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
+     "genre": "Animation, Action, Adventure",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 77,
+   "fields": {
+     "title": "Some Like It Hot",
+     "release_date": "1959-03-19",
+     "description": "After two male musicians witness a mob hit, they flee the state in an all-female band disguised as women, but further complications set in.",
+     "genre": "Comedy, Music, Romance",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 78,
+   "fields": {
+     "title": "Snatch",
+     "release_date": "2001-01-19",
+     "description": "Unscrupulous boxing promoters, violent bookmakers, a Russian gangster, incompetent amateur robbers and supposedly Jewish jewelers fight to track down a priceless stolen diamond.",
+     "genre": "Comedy, Crime",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 79,
+   "fields": {
+     "title": "Smultronstället",
+     "release_date": "1959-06-22",
+     "description": "After living a life marked by coldness, an aging professor is forced to confront the emptiness of his existence.",
+     "genre": "Drama, Romance",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 80,
+   "fields": {
+     "title": "Singin&apos; in the Rain",
+     "release_date": "1952-04-11",
+     "description": "A silent film star falls for a chorus girl just as he and his delusionally jealous screen partner are trying to make the difficult transition to talking pictures in 1920s Hollywood.",
+     "genre": "Comedy, Musical, Romance",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 81,
+   "fields": {
+     "title": "Shutter Island",
+     "release_date": "2010-02-19",
+     "description": "In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane.",
+     "genre": "Mystery, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 82,
+   "fields": {
+     "title": "Shichinin no samurai",
+     "release_date": "1956-11-19",
+     "description": "Farmers from a village exploited by bandits hire a veteran samurai for protection, who gathers six other samurai to join him. As the samurai teach the peasants how to defend themselves, the village is attacked by an army of bandits.",
+     "genre": "Action, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 83,
+   "fields": {
+     "title": "Sherlock Jr.",
+     "release_date": "1924-05-11",
+     "description": "A film projectionist longs to be a detective, and puts his meagre skills to work when he is framed by a rival for stealing his girlfriend&apos;s father&apos;s pocketwatch.",
+     "genre": "Action, Comedy, Romance",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 84,
+   "fields": {
+     "title": "Seppuku",
+     "release_date": "1964-08-04",
+     "description": "When a ronin requesting seppuku at a feudal lord&apos;s palace is told of the brutal suicide of another ronin who previously visited, he reveals how their pasts are intertwined - and in doing so challenges the clan&apos;s integrity.",
+     "genre": "Action, Drama, Mystery",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 85,
+   "fields": {
+     "title": "Sen to Chihiro no kamikakushi",
+     "release_date": "2003-03-28",
+     "description": "During her family&apos;s move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
+     "genre": "Animation, Adventure, Family",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 86,
+   "fields": {
+     "title": "Se7en",
+     "release_date": "1995-09-22",
+     "description": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+     "genre": "Crime, Drama, Mystery",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 87,
+   "fields": {
+     "title": "Schindler&apos;s List",
+     "release_date": "1994-02-04",
+     "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+     "genre": "Biography, Drama, History",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 88,
+   "fields": {
+     "title": "Scarface",
+     "release_date": "1983-12-09",
+     "description": "In 1980 Miami, a determined Cuban immigrant takes over a drug cartel and succumbs to greed.",
+     "genre": "Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 89,
+   "fields": {
+     "title": "Saving Private Ryan",
+     "release_date": "1998-07-24",
+     "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
+     "genre": "Drama, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 90,
+   "fields": {
+     "title": "Salinui chueok",
+     "release_date": "2003-05-02",
+     "description": "In a small Korean province in 1986, two detectives struggle with the case of multiple young women being found raped and murdered by an unknown culprit.",
+     "genre": "Crime, Drama, Mystery",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 91,
+   "fields": {
+     "title": "Rush",
+     "release_date": "2013-09-27",
+     "description": "The merciless 1970s rivalry between Formula One rivals James Hunt and Niki Lauda.",
+     "genre": "Action, Biography, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 92,
+   "fields": {
+     "title": "Room",
+     "release_date": "2016-01-22",
+     "description": "Held captive for 7 years in an enclosed space, a woman and her young son finally gain their freedom, allowing the boy to experience the outside world for the first time.",
+     "genre": "Drama, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 93,
+   "fields": {
+     "title": "Rocky",
+     "release_date": "1976-12-03",
+     "description": "A small-time Philadelphia boxer gets a supremely rare chance to fight the world heavyweight champion in a bout in which he strives to go the distance for his self-respect.",
+     "genre": "Drama, Sport",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 94,
+   "fields": {
+     "title": "Reservoir Dogs",
+     "release_date": "1992-09-02",
+     "description": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
+     "genre": "Crime, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 95,
+   "fields": {
+     "title": "Requiem for a Dream",
+     "release_date": "2000-12-15",
+     "description": "The drug-induced utopias of four Coney Island people are shattered when their addictions run deep.",
+     "genre": "Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 96,
+   "fields": {
+     "title": "Relatos salvajes",
+     "release_date": "2014-08-21",
+     "description": "Six short stories that explore the extremities of human behavior involving people in distress.",
+     "genre": "Comedy, Drama, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 97,
+   "fields": {
+     "title": "Rebecca",
+     "release_date": "1940-04-12",
+     "description": "A self-conscious woman juggles adjusting to her new role as an aristocrat&apos;s wife and avoiding being intimidated by his first wife&apos;s spectral presence.",
+     "genre": "Drama, Film-Noir, Mystery",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 98,
+   "fields": {
+     "title": "Rear Window",
+     "release_date": "1954-09-01",
+     "description": "A wheelchair-bound photographer spies on his neighbors from his Greenwich Village courtyard apartment window, and becomes convinced one of them has committed murder, despite the skepticism of his fashion-model girlfriend.",
+     "genre": "Mystery, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 99,
+   "fields": {
+     "title": "Ratatouille",
+     "release_date": "2007-06-29",
+     "description": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous Paris restaurant.",
+     "genre": "Animation, Adventure, Comedy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 100,
+   "fields": {
+     "title": "Rashômon",
+     "release_date": "1951-12-26",
+     "description": "The rape of a bride and the murder of her samurai husband are recalled from the perspectives of a bandit, the bride, the samurai&apos;s ghost and a woodcutter.",
+     "genre": "Crime, Drama, Mystery",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 101,
+   "fields": {
+     "title": "Ran",
+     "release_date": "1985-06-01",
+     "description": "In Medieval Japan, an elderly warlord retires, handing over his empire to his three sons. However, he vastly underestimates how the new-found power will corrupt them and cause them to turn on each other...and him.",
+     "genre": "Action, Drama, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 102,
+   "fields": {
+     "title": "Raiders of the Lost Ark",
+     "release_date": "1981-06-12",
+     "description": "Archaeology professor Indiana Jones ventures to seize a biblical artefact known as the Ark of the Covenant. While doing so, he puts up a fight against Renee and a troop of Nazis.",
+     "genre": "Action, Adventure",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 103,
+   "fields": {
+     "title": "Raging Bull",
+     "release_date": "1980-12-19",
+     "description": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it.",
+     "genre": "Biography, Drama, Sport",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 104,
+   "fields": {
+     "title": "Pulp Fiction",
+     "release_date": "1994-10-14",
+     "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+     "genre": "Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 105,
+   "fields": {
+     "title": "Psycho",
+     "release_date": "1960-09-08",
+     "description": "A Phoenix secretary embezzles $40,000 from her employer&apos;s client, goes on the run and checks into a remote motel run by a young man under the domination of his mother.",
+     "genre": "Horror, Mystery, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 106,
+   "fields": {
+     "title": "Prisoners",
+     "release_date": "2013-09-20",
+     "description": "When Keller Dover&apos;s daughter and her friend go missing, he takes matters into his own hands as the police pursue multiple leads and the pressure mounts.",
+     "genre": "Crime, Drama, Mystery",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 107,
+   "fields": {
+     "title": "Platoon",
+     "release_date": "1987-02-06",
+     "description": "Chris Taylor, a neophyte recruit in Vietnam, finds himself caught in a battle of wills between two sergeants, one good and the other evil. A shrewd examination of the brutality of war and the duality of man in conflict.",
+     "genre": "Drama, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 108,
+   "fields": {
+     "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+     "release_date": "2003-07-09",
+     "description": "Blacksmith Will Turner teams up with eccentric pirate &quot;Captain&quot; Jack Sparrow to save his love, the governor&apos;s daughter, from Jack&apos;s former pirate allies, who are now undead.",
+     "genre": "Action, Adventure, Fantasy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 109,
+   "fields": {
+     "title": "Persona",
+     "release_date": "1967-03-16",
+     "description": "A nurse is put in charge of a mute actress and finds that their personae are melding together.",
+     "genre": "Drama, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 110,
+   "fields": {
+     "title": "Per qualche dollaro in più",
+     "release_date": "1967-05-10",
+     "description": "Two bounty hunters with the same intentions team up to track down an escaped Mexican outlaw.",
+     "genre": "Western",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 111,
+   "fields": {
+     "title": "Paths of Glory",
+     "release_date": "1957-12-25",
+     "description": "After refusing to attack an enemy position, a general accuses the soldiers of cowardice and their commanding officer must defend them.",
+     "genre": "Drama, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 112,
+   "fields": {
+     "title": "Pather Panchali",
+     "release_date": "1955-08-26",
+     "description": "Impoverished priest Harihar Ray, dreaming of a better life for himself and his family, leaves his rural Bengal village in search of work.",
+     "genre": "Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 113,
+   "fields": {
+     "title": "One Flew Over the Cuckoo&apos;s Nest",
+     "release_date": "1975-11-19",
+     "description": "In the Fall of 1963, a Korean War veteran and criminal pleads insanity and is admitted to a mental institution, where he rallies up the scared patients against the tyrannical nurse.",
+     "genre": "Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 114,
+   "fields": {
+     "title": "Once Upon a Time in America",
+     "release_date": "1984-06-01",
+     "description": "A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan 35 years later, where he must once again confront the ghosts and regrets of his old life.",
+     "genre": "Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 115,
+   "fields": {
+     "title": "On the Waterfront",
+     "release_date": "1954-06-22",
+     "description": "An ex-prize fighter turned New Jersey longshoreman struggles to stand up to his corrupt union bosses, including his older brother, as he starts to connect with the grieving sister of one of the syndicate&apos;s victims.",
+     "genre": "Crime, Drama, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 116,
+   "fields": {
+     "title": "Oldeuboi",
+     "release_date": "2003-11-21",
+     "description": "After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days.",
+     "genre": "Action, Drama, Mystery",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 117,
+   "fields": {
+     "title": "Nuovo Cinema Paradiso",
+     "release_date": "1990-02-23",
+     "description": "A filmmaker recalls his childhood when falling in love with the pictures at the cinema of his home village and forms a deep friendship with the cinema&apos;s projectionist.",
+     "genre": "Drama, Romance",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 118,
+   "fields": {
+     "title": "North by Northwest",
+     "release_date": "1959-12-18",
+     "description": "A New York City advertising executive goes on the run after being mistaken for a government agent by a group of foreign spies, and falls for a woman whose loyalties he begins to doubt.",
+     "genre": "Action, Adventure, Mystery",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 119,
+   "fields": {
+     "title": "No Country for Old Men",
+     "release_date": "2007-11-21",
+     "description": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.",
+     "genre": "Crime, Drama, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 120,
+   "fields": {
+     "title": "Network",
+     "release_date": "1976-11-27",
+     "description": "A television network cynically exploits a deranged former anchor&apos;s ravings and revelations about the news media for its own profit, but finds that his message may be difficult to control.",
+     "genre": "Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 121,
+   "fields": {
+     "title": "Mr. Smith Goes to Washington",
+     "release_date": "1939-10-19",
+     "description": "A naive youth leader is appointed to fill a vacancy in the U.S. Senate. His idealistic plans promptly collide with corruption at home and subterfuge from his hero in Washington, but he tries to forge ahead despite attacks on his c...",
+     "genre": "Comedy, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 122,
+   "fields": {
+     "title": "Monty Python and the Holy Grail",
+     "release_date": "1975-05-25",
+     "description": "King Arthur and his Knights of the Round Table embark on a surreal, low-budget search for the Holy Grail, encountering many, very silly obstacles.",
+     "genre": "Adventure, Comedy, Fantasy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 123,
+   "fields": {
+     "title": "Monsters, Inc.",
+     "release_date": "2001-11-02",
+     "description": "In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, two monsters realize things may not be what they think.",
+     "genre": "Animation, Adventure, Comedy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 124,
+   "fields": {
+     "title": "Mononoke-hime",
+     "release_date": "1997-12-19",
+     "description": "On a journey to find the cure for a Tatarigami&apos;s curse, Ashitaka finds himself in the middle of a war between the forest gods and Tatara, a mining colony. In this quest he also meets San, the Mononoke Hime.",
+     "genre": "Animation, Action, Adventure",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 125,
+   "fields": {
+     "title": "Modern Times",
+     "release_date": "1936-02-25",
+     "description": "The Tramp struggles to live in modern industrial society with the help of a young homeless woman.",
+     "genre": "Comedy, Drama, Romance",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 126,
+   "fields": {
+     "title": "Million Dollar Baby",
+     "release_date": "2005-01-28",
+     "description": "A determined woman works with a hardened boxing trainer to become a professional.",
+     "genre": "Drama, Sport",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 127,
+   "fields": {
+     "title": "Metropolis",
+     "release_date": "1927-03-13",
+     "description": "In a futuristic city sharply divided between the working class and the city planners, the son of the city&apos;s mastermind falls in love with a working-class prophet who predicts the coming of a savior to mediate their differences.",
+     "genre": "Drama, Sci-Fi",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 128,
+   "fields": {
+     "title": "Memento",
+     "release_date": "2001-05-25",
+     "description": "A man with short-term memory loss attempts to track down his wife&apos;s murderer.",
+     "genre": "Mystery, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 129,
+   "fields": {
+     "title": "Mary and Max.",
+     "release_date": "2010-03-12",
+     "description": "A tale of friendship between two unlikely pen pals: Mary, a lonely, eight-year-old girl living in the suburbs of Melbourne, and Max, a forty-four-year old, severely obese man living in New York.",
+     "genre": "Animation, Comedy, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 130,
+   "fields": {
+     "title": "Mad Max: Fury Road",
+     "release_date": "2015-05-15",
+     "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+     "genre": "Action, Adventure, Sci-Fi",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 131,
+   "fields": {
+     "title": "M - Eine Stadt sucht einen Mörder",
+     "release_date": "1931-08-31",
+     "description": "When the police in a German city are unable to catch a child-murderer, other criminals join in the manhunt.",
+     "genre": "Crime, Mystery, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 132,
+   "fields": {
+     "title": "Léon",
+     "release_date": "1994-11-18",
+     "description": "12-year-old Mathilda is reluctantly taken in by Léon, a professional assassin, after her family is murdered. An unusual relationship forms as she becomes his protégée and learns the assassin&apos;s trade.",
+     "genre": "Action, Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 133,
+   "fields": {
+     "title": "Logan",
+     "release_date": "2017-03-03",
+     "description": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.",
+     "genre": "Action, Drama, Sci-Fi",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 134,
+   "fields": {
+     "title": "Lock, Stock and Two Smoking Barrels",
+     "release_date": "1998-08-28",
+     "description": "Eddy persuades his three pals to pool money for a vital poker game against a powerful local mobster, Hatchet Harry. Eddy loses, after which Harry gives him a week to pay back 500,000 pounds.",
+     "genre": "Action, Comedy, Crime",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 135,
+   "fields": {
+     "title": "Life of Brian",
+     "release_date": "1979-08-17",
+     "description": "Born on the original Christmas in the stable next door to Jesus Christ, Brian of Nazareth spends his life being mistaken for a messiah.",
+     "genre": "Comedy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 136,
+   "fields": {
+     "title": "Les quatre cents coups",
+     "release_date": "1959-11-16",
+     "description": "A young boy, left without attention, delves into a life of petty crime.",
+     "genre": "Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 137,
+   "fields": {
+     "title": "Le salaire de la peur",
+     "release_date": "1955-02-16",
+     "description": "In a decrepit South American village, four men are hired to transport an urgent nitroglycerine shipment without the equipment that would make it safe.",
+     "genre": "Adventure, Drama, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 138,
+   "fields": {
+     "title": "Le fabuleux destin d&apos;Amélie Poulain",
+     "release_date": "2002-02-08",
+     "description": "Amélie is an innocent and naive girl in Paris with her own sense of justice. She decides to help those around her and, along the way, discovers love.",
+     "genre": "Comedy, Romance",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 139,
+   "fields": {
+     "title": "Lawrence of Arabia",
+     "release_date": "1962-12-11",
+     "description": "The story of T.E. Lawrence, the English officer who successfully united and led the diverse, often warring, Arab tribes during World War I in order to fight the Turks.",
+     "genre": "Adventure, Biography, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 140,
+   "fields": {
+     "title": "Ladri di biciclette",
+     "release_date": "1949-12-13",
+     "description": "In post-war Italy, a working-class man&apos;s bicycle is stolen, endangering his efforts to find work. He and his son set out to find it.",
+     "genre": "Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 141,
+   "fields": {
+     "title": "La vita è bella",
+     "release_date": "1997-12-20",
+     "description": "When an open-minded Jewish waiter and his son become victims of the Holocaust, he uses a perfect mixture of will, humor, and imagination to protect his son from the dangers around their camp.",
+     "genre": "Comedy, Drama, Romance",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 142,
+   "fields": {
+     "title": "La passion de Jeanne d&apos;Arc",
+     "release_date": "1928-10-25",
+     "description": "In 1431, Jeanne d&apos;Arc is placed on trial on charges of heresy. The ecclesiastical jurists attempt to force Jeanne to recant her claims of holy visions.",
+     "genre": "Biography, Drama, History",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 143,
+   "fields": {
+     "title": "La haine",
+     "release_date": "1996-02-23",
+     "description": "24 hours in the lives of three young men in the French suburbs the day after a violent riot.",
+     "genre": "Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 144,
+   "fields": {
+     "title": "La battaglia di Algeri",
+     "release_date": "1967-09-20",
+     "description": "In the 1950s, fear and violence escalate as the people of Algiers fight for independence from the French government.",
+     "genre": "Drama, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 145,
+   "fields": {
+     "title": "L.A. Confidential",
+     "release_date": "1997-09-19",
+     "description": "As corruption grows in 1950s Los Angeles, three policemen - one strait-laced, one brutal, and one sleazy - investigate a series of murders with their own brand of justice.",
+     "genre": "Crime, Drama, Mystery",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 146,
+   "fields": {
+     "title": "Klaus",
+     "release_date": "2019-11-15",
+     "description": "A simple act of kindness always sparks another, even in a frozen, faraway place. When Smeerensburg&apos;s new postman, Jesper, befriends toymaker Klaus, their gifts melt an age-old feud and deliver a sleigh full of holiday traditions.",
+     "genre": "Animation, Adventure, Comedy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 147,
+   "fields": {
+     "title": "Kimi no Na wa.",
+     "release_date": "2017-04-07",
+     "description": "Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?",
+     "genre": "Animation, Drama, Fantasy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 148,
+   "fields": {
+     "title": "Kill Bill: Vol. 1",
+     "release_date": "2003-10-10",
+     "description": "After awakening from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.",
+     "genre": "Action, Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 149,
+   "fields": {
+     "title": "Jurassic Park",
+     "release_date": "1993-06-11",
+     "description": "A pragmatic paleontologist touring an almost complete theme park on an island in Central America is tasked with protecting a couple of kids after a power failure causes the park&apos;s cloned dinosaurs to run loose.",
+     "genre": "Action, Adventure, Sci-Fi",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 150,
+   "fields": {
+     "title": "Judgment at Nuremberg",
+     "release_date": "1961-12-18",
+     "description": "In 1948, an American court in occupied Germany tries four Nazis judged for war crimes.",
+     "genre": "Drama, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 151,
+   "fields": {
+     "title": "Joker",
+     "release_date": "2019-10-04",
+     "description": "A mentally troubled stand-up comedian embarks on a downward spiral that leads to the creation of an iconic villain.",
+     "genre": "Crime, Drama, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 152,
+   "fields": {
+     "title": "Jodaeiye Nader az Simin",
+     "release_date": "2011-03-16",
+     "description": "A married couple are faced with a difficult decision - to improve the life of their child by moving to another country or to stay in Iran and look after a deteriorating parent who has Alzheimer&apos;s disease.",
+     "genre": "Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 153,
+   "fields": {
+     "title": "Jaws",
+     "release_date": "1975-06-20",
+     "description": "When a killer shark unleashes chaos on a beach community off Cape Cod, it&apos;s up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.",
+     "genre": "Adventure, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 154,
+   "fields": {
+     "title": "Jai Bhim",
+     "release_date": "2021-11-02",
+     "description": "When a tribal man is arrested for a case of alleged theft, his wife turns to a human-rights lawyer to help bring justice.",
+     "genre": "Crime, Drama, Mystery",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 155,
+   "fields": {
+     "title": "Jagten",
+     "release_date": "2013-01-10",
+     "description": "A teacher lives a lonely life, all the while struggling over his son&apos;s custody. His life slowly gets better as he finds love and receives good news from his son, but his new luck is about to be brutally shattered by an innocent li...",
+     "genre": "Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 156,
+   "fields": {
+     "title": "It&apos;s a Wonderful Life",
+     "release_date": "1947-01-07",
+     "description": "An angel is sent from Heaven to help a desperately frustrated businessman by showing him what life would have been like if he had never existed.",
+     "genre": "Drama, Family, Fantasy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 157,
+   "fields": {
+     "title": "It Happened One Night",
+     "release_date": "1934-02-22",
+     "description": "A renegade reporter trailing a young runaway heiress for a big story joins her on a bus heading from Florida to New York, and they end up stuck with each other when the bus leaves them behind at one of the stops.",
+     "genre": "Comedy, Romance",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 158,
+   "fields": {
+     "title": "Intouchables",
+     "release_date": "2011-11-02",
+     "description": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
+     "genre": "Biography, Comedy, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 159,
+   "fields": {
+     "title": "Into the Wild",
+     "release_date": "2007-10-19",
+     "description": "After graduating from Emory University, top student and athlete Christopher McCandless abandons his possessions, gives his entire $24,000 savings account to charity and hitchhikes to Alaska to live in the wilderness. Along the way...",
+     "genre": "Adventure, Biography, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 160,
+   "fields": {
+     "title": "Interstellar",
+     "release_date": "2014-11-07",
+     "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity&apos;s survival.",
+     "genre": "Adventure, Drama, Sci-Fi",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 161,
+   "fields": {
+     "title": "Inside Out",
+     "release_date": "2015-06-19",
+     "description": "After young Riley is uprooted from her Midwest life and moved to San Francisco, her emotions - Joy, Fear, Anger, Disgust and Sadness - conflict on how best to navigate a new city, house, and school.",
+     "genre": "Animation, Adventure, Comedy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 162,
+   "fields": {
+     "title": "Inglourious Basterds",
+     "release_date": "2009-08-21",
+     "description": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner&apos;s vengeful plans for the same.",
+     "genre": "Adventure, Drama, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 163,
+   "fields": {
+     "title": "Indiana Jones and the Last Crusade",
+     "release_date": "1989-05-24",
+     "description": "In 1938, after his father Professor Henry Jones, Sr. goes missing while pursuing the Holy Grail, Professor Henry &quot;Indiana&quot; Jones, Jr. finds himself up against Adolf Hitler&apos;s Nazis again to stop them from obtaining its powers.",
+     "genre": "Action, Adventure",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 164,
+   "fields": {
+     "title": "Inception",
+     "release_date": "2010-07-16",
+     "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+     "genre": "Action, Adventure, Sci-Fi",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 165,
+   "fields": {
+     "title": "Incendies",
+     "release_date": "2011-01-12",
+     "description": "Twins journey to the Middle East to discover their family history and fulfill their mother&apos;s last wishes.",
+     "genre": "Drama, Mystery",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 166,
+   "fields": {
+     "title": "In the Name of the Father",
+     "release_date": "1994-02-25",
+     "description": "A man&apos;s coerced confession to an I.R.A. bombing he did not commit results in the imprisonment of his father as well. An English lawyer fights to free them.",
+     "genre": "Biography, Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 167,
+   "fields": {
+     "title": "Il buono, il brutto, il cattivo",
+     "release_date": "1967-12-29",
+     "description": "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
+     "genre": "Adventure, Western",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 168,
+   "fields": {
+     "title": "Ikiru",
+     "release_date": "1956-03-25",
+     "description": "A bureaucrat tries to find meaning in his life after he discovers he has terminal cancer.",
+     "genre": "Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 169,
+   "fields": {
+     "title": "Idi i smotri",
+     "release_date": "1985-09-03",
+     "description": "After finding an old rifle, a young boy joins the Soviet resistance movement against ruthless German forces and experiences the horrors of World War II.",
+     "genre": "Drama, Thriller, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 170,
+   "fields": {
+     "title": "How to Train Your Dragon",
+     "release_date": "2010-03-26",
+     "description": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
+     "genre": "Animation, Action, Adventure",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 171,
+   "fields": {
+     "title": "Hotel Rwanda",
+     "release_date": "2005-02-04",
+     "description": "Paul Rusesabagina, a hotel manager, houses over a thousand Tutsi refugees during their struggle against the Hutu militia in Rwanda, Africa.",
+     "genre": "Biography, Drama, History",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 172,
+   "fields": {
+     "title": "Hotaru no haka",
+     "release_date": "1989-07-26",
+     "description": "A young boy and his little sister struggle to survive in Japan during World War II.",
+     "genre": "Animation, Drama, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 173,
+   "fields": {
+     "title": "Heat",
+     "release_date": "1995-12-15",
+     "description": "A group of high-end professional thieves start to feel the heat from the LAPD when they unknowingly leave a clue at their latest heist.",
+     "genre": "Action, Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 174,
+   "fields": {
+     "title": "Hauru no ugoku shiro",
+     "release_date": "2005-06-17",
+     "description": "When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle.",
+     "genre": "Animation, Adventure, Family",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 175,
+   "fields": {
+     "title": "Harry Potter and the Deathly Hallows - Part 2",
+     "release_date": "2011-07-15",
+     "description": "Harry, Ron, and Hermione search for Voldemort&apos;s remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
+     "genre": "Adventure, Family, Fantasy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 176,
+   "fields": {
+     "title": "Hamilton",
+     "release_date": "2020-07-03",
+     "description": "The real life of one of America&apos;s foremost founding fathers and first Secretary of the Treasury, Alexander Hamilton. Captured live on Broadway from the Richard Rodgers Theater with the original Broadway cast.",
+     "genre": "Biography, Drama, History",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 177,
+   "fields": {
+     "title": "Hacksaw Ridge",
+     "release_date": "2016-11-04",
+     "description": "World War II American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people and becomes the first man in American history to receive the Medal of Honor without firing a shot.",
+     "genre": "Biography, Drama, History",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 178,
+   "fields": {
+     "title": "Hachi: A Dog&apos;s Tale",
+     "release_date": "2010-03-12",
+     "description": "A college professor bonds with an abandoned dog he takes into his home.",
+     "genre": "Biography, Drama, Family",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 179,
+   "fields": {
+     "title": "Groundhog Day",
+     "release_date": "1993-02-12",
+     "description": "A narcissistic, self-centered weatherman finds himself in a time loop on Groundhog Day, and the day keeps repeating until he gets it right.",
+     "genre": "Comedy, Drama, Fantasy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 180,
+   "fields": {
+     "title": "Green Book",
+     "release_date": "2018-11-16",
+     "description": "A working-class Italian-American bouncer becomes the driver for an African-American classical pianist on a tour of venues through the 1960s American South.",
+     "genre": "Biography, Comedy, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 181,
+   "fields": {
+     "title": "Gran Torino",
+     "release_date": "2009-01-09",
+     "description": "Disgruntled Korean War veteran Walt Kowalski sets out to reform his neighbor, Thao Lor, a Hmong teenager who tried to steal Kowalski&apos;s prized possession: a 1972 Gran Torino.",
+     "genre": "Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 182,
+   "fields": {
+     "title": "Goodfellas",
+     "release_date": "1990-09-21",
+     "description": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.",
+     "genre": "Biography, Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 183,
+   "fields": {
+     "title": "Good Will Hunting",
+     "release_date": "1998-01-09",
+     "description": "Will Hunting, a janitor at M.I.T., has a gift for mathematics, but needs help from a psychologist to find direction in his life.",
+     "genre": "Drama, Romance",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 184,
+   "fields": {
+     "title": "Gone with the Wind",
+     "release_date": "1940-01-17",
+     "description": "The manipulative daughter of a Georgia plantation owner conducts a turbulent romance with a roguish profiteer during the American Civil War and Reconstruction periods.",
+     "genre": "Drama, Romance, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 185,
+   "fields": {
+     "title": "Gone Girl",
+     "release_date": "2014-10-03",
+     "description": "With his wife&apos;s disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it&apos;s suspected that he may not be innocent.",
+     "genre": "Drama, Mystery, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 186,
+   "fields": {
+     "title": "Gladiator",
+     "release_date": "2000-05-05",
+     "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+     "genre": "Action, Adventure, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 187,
+   "fields": {
+     "title": "Gisaengchung",
+     "release_date": "2019-11-08",
+     "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+     "genre": "Drama, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 188,
+   "fields": {
+     "title": "Gandhi",
+     "release_date": "1983-02-25",
+     "description": "The life of the lawyer who became the famed leader of the Indian revolts against the British rule through his philosophy of nonviolent protest.",
+     "genre": "Biography, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 189,
+   "fields": {
+     "title": "Full Metal Jacket",
+     "release_date": "1987-07-10",
+     "description": "A pragmatic U.S. Marine observes the dehumanizing effects the Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.",
+     "genre": "Drama, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 190,
+   "fields": {
+     "title": "Forrest Gump",
+     "release_date": "1994-07-06",
+     "description": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood swe...",
+     "genre": "Drama, Romance",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 191,
+   "fields": {
+     "title": "Ford v Ferrari",
+     "release_date": "2019-11-15",
+     "description": "American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966.",
+     "genre": "Action, Biography, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 192,
+   "fields": {
+     "title": "Finding Nemo",
+     "release_date": "2003-05-30",
+     "description": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
+     "genre": "Animation, Adventure, Comedy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 193,
+   "fields": {
+     "title": "Fight Club",
+     "release_date": "1999-10-15",
+     "description": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
+     "genre": "Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 194,
+   "fields": {
+     "title": "Fargo",
+     "release_date": "1996-04-05",
+     "description": "Minnesota car salesman Jerry Lundegaard&apos;s inept crime falls apart due to his and his henchmen&apos;s bungling and the persistent police work of the quite pregnant Marge Gunderson.",
+     "genre": "Crime, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 195,
+   "fields": {
+     "title": "Everything Everywhere All at Once",
+     "release_date": "2022-03-25",
+     "description": "An aging Chinese immigrant is swept up in an insane adventure, in which she alone can save the world by exploring other universes connecting with the lives she could have led.",
+     "genre": "Action, Adventure, Comedy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 196,
+   "fields": {
+     "title": "Eternal Sunshine of the Spotless Mind",
+     "release_date": "2004-03-19",
+     "description": "When their relationship turns sour, a couple undergoes a medical procedure to have each other erased from their memories for ever.",
+     "genre": "Drama, Romance, Sci-Fi",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 197,
+   "fields": {
+     "title": "El secreto de sus ojos",
+     "release_date": "2010-05-21",
+     "description": "A retired legal counselor writes a novel hoping to find closure for one of his past unresolved homicide cases and for his unreciprocated love with his superior - both of which still haunt him decades later.",
+     "genre": "Drama, Mystery, Romance",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 198,
+   "fields": {
+     "title": "El laberinto del fauno",
+     "release_date": "2007-01-19",
+     "description": "In the Falangist Spain of 1944, the bookish young stepdaughter of a sadistic army officer escapes into an eerie but captivating fantasy world.",
+     "genre": "Drama, Fantasy, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 199,
+   "fields": {
+     "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+     "release_date": "1964-01-29",
+     "description": "An insane American general orders a bombing attack on the Soviet Union, triggering a path to nuclear holocaust that a war room full of politicians and generals frantically tries to stop.",
+     "genre": "Comedy, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 200,
+   "fields": {
+     "title": "Double Indemnity",
+     "release_date": "1944-07-06",
+     "description": "A Los Angeles insurance representative lets an alluring housewife seduce him into a scheme of insurance fraud and murder that arouses the suspicion of his colleague, an insurance investigator.",
+     "genre": "Crime, Drama, Film-Noir",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 201,
+   "fields": {
+     "title": "Django Unchained",
+     "release_date": "2012-12-25",
+     "description": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation-owner in Mississippi.",
+     "genre": "Drama, Western",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 202,
+   "fields": {
+     "title": "Die Hard",
+     "release_date": "1988-07-20",
+     "description": "A New York City police officer tries to save his estranged wife and several others taken hostage by terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles.",
+     "genre": "Action, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 203,
+   "fields": {
+     "title": "Dial M for Murder",
+     "release_date": "1954-05-29",
+     "description": "A former tennis star arranges the murder of his adulterous wife.",
+     "genre": "Crime, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 204,
+   "fields": {
+     "title": "Det sjunde inseglet",
+     "release_date": "1958-10-13",
+     "description": "A knight returning to Sweden after the Crusades seeks answers about life, death, and the existence of God as he plays chess against the Grim Reaper during the Black Plague.",
+     "genre": "Drama, Fantasy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 205,
+   "fields": {
+     "title": "Dersu Uzala",
+     "release_date": "1977-12-20",
+     "description": "The Russian army sends an explorer on an expedition to the snowy Siberian wilderness where he makes friends with a seasoned local hunter.",
+     "genre": "Adventure, Biography, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 206,
+   "fields": {
+     "title": "Der Untergang",
+     "release_date": "2005-04-08",
+     "description": "Traudl Junge, the final secretary for Adolf Hitler, tells of the Nazi dictator&apos;s final days in his Berlin bunker at the end of WWII.",
+     "genre": "Biography, Drama, History",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 207,
+   "fields": {
+     "title": "Dead Poets Society",
+     "release_date": "1989-06-09",
+     "description": "Maverick teacher John Keating uses poetry to embolden his boarding school students to new heights of self-expression.",
+     "genre": "Comedy, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 208,
+   "fields": {
+     "title": "Das Leben der Anderen",
+     "release_date": "2007-03-30",
+     "description": "In 1984 East Berlin, an agent of the secret police, conducting surveillance on a writer and his lover, finds himself becoming increasingly absorbed by their lives.",
+     "genre": "Drama, Mystery, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 209,
+   "fields": {
+     "title": "Das Boot",
+     "release_date": "1982-02-10",
+     "description": "A German U-boat stalks the frigid waters of the North Atlantic as its young crew experience the sheer terror and claustrophobic life of a submariner in World War II.",
+     "genre": "Drama, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 210,
+   "fields": {
+     "title": "Dangal",
+     "release_date": "2016-12-21",
+     "description": "Former wrestler Mahavir Singh Phogat and his two wrestler daughters struggle towards glory at the Commonwealth Games in the face of societal oppression.",
+     "genre": "Action, Biography, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 211,
+   "fields": {
+     "title": "Cool Hand Luke",
+     "release_date": "1967-11-01",
+     "description": "A laid back Southern man is sentenced to two years in a rural prison, but refuses to conform.",
+     "genre": "Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 212,
+   "fields": {
+     "title": "Coco",
+     "release_date": "2017-11-22",
+     "description": "Aspiring musician Miguel, confronted with his family&apos;s ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.",
+     "genre": "Animation, Adventure, Comedy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 213,
+   "fields": {
+     "title": "City Lights",
+     "release_date": "1931-03-07",
+     "description": "With the aid of a wealthy erratic tippler, a dewy-eyed tramp who has fallen in love with a sightless flower girl accumulates money to be able to help her medically.",
+     "genre": "Comedy, Drama, Romance",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 214,
+   "fields": {
+     "title": "Citizen Kane",
+     "release_date": "1941-09-05",
+     "description": "Following the death of publishing tycoon Charles Foster Kane, reporters scramble to uncover the meaning of his final utterance: &apos;Rosebud.&apos;",
+     "genre": "Drama, Mystery",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 215,
+   "fields": {
+     "title": "Cidade de Deus",
+     "release_date": "2004-02-13",
+     "description": "In the slums of Rio, two kids&apos; paths diverge as one struggles to become a photographer and the other a kingpin.",
+     "genre": "Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 216,
+   "fields": {
+     "title": "Chinatown",
+     "release_date": "1974-06-20",
+     "description": "A private detective hired to expose an adulterer in 1930s Los Angeles finds himself caught up in a web of deceit, corruption, and murder.",
+     "genre": "Drama, Mystery, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 217,
+   "fields": {
+     "title": "Catch Me If You Can",
+     "release_date": "2002-12-25",
+     "description": "Barely 21 yet, Frank is a skilled forger who has passed as a doctor, lawyer and pilot. FBI agent Carl becomes obsessed with tracking down the con man, who only revels in the pursuit.",
+     "genre": "Biography, Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 218,
+   "fields": {
+     "title": "Casino",
+     "release_date": "1995-11-22",
+     "description": "A tale of greed, deception, money, power, and murder occur between two best friends: a mafia enforcer and a casino executive compete against each other over a gambling empire, and over a fast-living and fast-loving socialite.",
+     "genre": "Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 219,
+   "fields": {
+     "title": "Casablanca",
+     "release_date": "1943-01-23",
+     "description": "A cynical expatriate American cafe owner struggles to decide whether or not to help his former lover and her fugitive husband escape the Nazis in French Morocco.",
+     "genre": "Drama, Romance, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 220,
+   "fields": {
+     "title": "Capharnaüm",
+     "release_date": "2018-09-20",
+     "description": "While serving a five-year sentence for a violent crime, a 12-year-old boy sues his parents for neglect.",
+     "genre": "Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 221,
+   "fields": {
+     "title": "C&apos;era una volta il West",
+     "release_date": "1969-07-04",
+     "description": "A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.",
+     "genre": "Western",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 222,
+   "fields": {
+     "title": "Braveheart",
+     "release_date": "1995-05-24",
+     "description": "Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from the tyranny of King Edward I of England.",
+     "genre": "Biography, Drama, History",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 223,
+   "fields": {
+     "title": "Blade Runner",
+     "release_date": "1982-06-25",
+     "description": "A blade runner must pursue and terminate four replicants who stole a ship in space and have returned to Earth to find their creator.",
+     "genre": "Action, Drama, Sci-Fi",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 224,
+   "fields": {
+     "title": "Ben-Hur",
+     "release_date": "1959-11-18",
+     "description": "After a Jewish prince is betrayed and sent into slavery by a Roman friend in 1st-century Jerusalem, he regains his freedom and comes back for revenge.",
+     "genre": "Adventure, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 225,
+   "fields": {
+     "title": "Before Sunset",
+     "release_date": "2004-07-30",
+     "description": "Nine years after Jesse and Celine first met, they encounter each other again on the French leg of Jesse&apos;s book tour.",
+     "genre": "Drama, Romance",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 226,
+   "fields": {
+     "title": "Before Sunrise",
+     "release_date": "1995-01-27",
+     "description": "A young man and woman meet on a train in Europe, and wind up spending one evening together in Vienna. Unfortunately, both know that this will probably be their only night together.",
+     "genre": "Drama, Romance",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 227,
+   "fields": {
+     "title": "Batman Begins",
+     "release_date": "2005-06-15",
+     "description": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
+     "genre": "Action, Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 228,
+   "fields": {
+     "title": "Barry Lyndon",
+     "release_date": "1975-12-18",
+     "description": "An Irish rogue wins the heart of a rich widow and assumes her dead husband&apos;s aristocratic position in 18th-century England.",
+     "genre": "Adventure, Drama, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 229,
+   "fields": {
+     "title": "Back to the Future",
+     "release_date": "1985-07-03",
+     "description": "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
+     "genre": "Adventure, Comedy, Sci-Fi",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 230,
+   "fields": {
+     "title": "Bacheha-Ye aseman",
+     "release_date": "1999-01-22",
+     "description": "After a boy loses his sister&apos;s pair of shoes, he goes on a series of adventures in order to find them. When he can&apos;t, he tries a new way to &quot;win&quot; a new pair.",
+     "genre": "Drama, Family, Sport",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 231,
+   "fields": {
+     "title": "Babam ve Oglum",
+     "release_date": "2005-11-18",
+     "description": "The family of a left-wing journalist is torn apart after the military coup of Turkey in 1980.",
+     "genre": "Drama, Family",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 232,
+   "fields": {
+     "title": "Avengers: Infinity War",
+     "release_date": "2018-04-27",
+     "description": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+     "genre": "Action, Adventure, Sci-Fi",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 233,
+   "fields": {
+     "title": "Avengers: Endgame",
+     "release_date": "2019-04-26",
+     "description": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos&apos; actions and restore balance to the universe.",
+     "genre": "Action, Adventure, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 234,
+   "fields": {
+     "title": "Apocalypse Now",
+     "release_date": "1979-08-15",
+     "description": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god.",
+     "genre": "Drama, Mystery, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 235,
+   "fields": {
+     "title": "Amores perros",
+     "release_date": "2001-04-13",
+     "description": "A horrific car accident connects three stories, each involving characters dealing with loss, regret, and life&apos;s harsh realities, all in the name of love.",
+     "genre": "Drama, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 236,
+   "fields": {
+     "title": "American History X",
+     "release_date": "1998-11-20",
+     "description": "A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did.",
+     "genre": "Crime, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 237,
+   "fields": {
+     "title": "American Beauty",
+     "release_date": "1999-10-01",
+     "description": "A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter&apos;s best friend.",
+     "genre": "Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 238,
+   "fields": {
+     "title": "Amadeus",
+     "release_date": "1984-09-19",
+     "description": "The life, success and troubles of Wolfgang Amadeus Mozart, as told by Antonio Salieri, the contemporaneous composer who was deeply jealous of Mozart&apos;s talent and claimed to have murdered him.",
+     "genre": "Biography, Drama, Music",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 239,
+   "fields": {
+     "title": "All About Eve",
+     "release_date": "1950-10-27",
+     "description": "A seemingly timid but secretly ruthless ingénue insinuates herself into the lives of an aging Broadway star and her circle of theater friends.",
+     "genre": "Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 240,
+   "fields": {
+     "title": "Aliens",
+     "release_date": "1986-07-18",
+     "description": "Fifty-seven years after surviving an apocalyptic attack aboard her space vessel by merciless space creatures, Officer Ripley awakens from hyper-sleep and tries to warn anyone who will listen about the predators.",
+     "genre": "Action, Adventure, Sci-Fi",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 241,
+   "fields": {
+     "title": "Alien",
+     "release_date": "1979-06-22",
+     "description": "The crew of a commercial spacecraft encounter a deadly lifeform after investigating an unknown transmission.",
+     "genre": "Horror, Sci-Fi",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 242,
+   "fields": {
+     "title": "Aladdin",
+     "release_date": "1992-11-25",
+     "description": "A kindhearted street urchin and a power-hungry Grand Vizier vie for a magic lamp that has the power to make their deepest wishes come true.",
+     "genre": "Animation, Adventure, Comedy",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 243,
+   "fields": {
+     "title": "Ah-ga-ssi",
+     "release_date": "2016-06-01",
+     "description": "A woman is hired as a handmaiden to a Japanese heiress, but secretly she is involved in a plot to defraud her.",
+     "genre": "Drama, Romance, Thriller",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 244,
+   "fields": {
+     "title": "A Clockwork Orange",
+     "release_date": "1972-02-02",
+     "description": "In the future, a sadistic gang leader is imprisoned and volunteers for a conduct-aversion experiment, but it doesn&apos;t go as planned.",
+     "genre": "Crime, Sci-Fi",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 245,
+   "fields": {
+     "title": "A Beautiful Mind",
+     "release_date": "2002-01-04",
+     "description": "After John Nash, a brilliant but asocial mathematician, accepts secret work in cryptography, his life takes a turn for the nightmarish.",
+     "genre": "Biography, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 246,
+   "fields": {
+     "title": "3 Idiots",
+     "release_date": "2009-12-25",
+     "description": "Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them &quot;idiots&quot;.",
+     "genre": "Comedy, Drama",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 247,
+   "fields": {
+     "title": "2001: A Space Odyssey",
+     "release_date": "1970-06-24",
+     "description": "After uncovering a mysterious artifact buried beneath the Lunar surface, a spacecraft is sent to Jupiter to find its origins - a spacecraft manned by two men and the supercomputer H.A.L. 9000.",
+     "genre": "Adventure, Sci-Fi",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 248,
+   "fields": {
+     "title": "1917",
+     "release_date": "2020-01-10",
+     "description": "April 6th, 1917. As an infantry battalion assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap.",
+     "genre": "Action, Drama, War",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 249,
+   "fields": {
+     "title": "12 Years a Slave",
+     "release_date": "2013-11-08",
+     "description": "In the antebellum United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery.",
+     "genre": "Biography, Drama, History",
+     "poster": "default.jpg"
+   }
+ },
+ {
+   "model": "homepage.Movie",
+   "pk": 250,
+   "fields": {
+     "title": "12 Angry Men",
+     "release_date": "1957-04-10",
+     "description": "The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict.",
+     "genre": "Crime, Drama",
+     "poster": "default.jpg"
+   }
+ }
 ]
+
