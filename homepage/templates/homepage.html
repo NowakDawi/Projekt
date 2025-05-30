@@ -70,7 +70,19 @@
 
               {% if user.is_authenticated %}
                 {% for watch_movie in watchlist_movies %}
-                    <li><a class="dropdown-item" href="#{{ watch_movie }}">{{ watch_movie }}<i class="fa-solid fa-star" style="padding-left: 5px; color: yellow"></i></a></li>
+                    <li>
+                        <a class="dropdown-item" href="#{{ watch_movie }}">
+                            <div class="container" style="justify-content: space-between;">
+                                <div>
+                                    {{ watch_movie }}
+                                    <i class="fa-solid fa-star" style="padding-left: 5px; color: yellow"></i>
+                                </div>
+
+                                    <i class="fa-solid fa-trash" style="color: red; text-align: right;"></i>
+                            </div>
+
+                        </a>
+                    </li>
                 {% endfor %}
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="{% url 'show_watchlist' %}">Sprawdź watchlistę</a></li>
@@ -99,7 +111,16 @@
                 <div class="card" style="width: 26rem; background-color: rgba(0, 0, 0, 0.1);" id="{{ movie }}">
                   <img src="http://127.0.0.1:8000/homepage/poster/{{ movie.poster }}" class="card-img-top" alt="{{ movie }}">
                   <div class="card-body">
-                        <h5 class="card-title">{{ movie }}</h5>
+                      <div class="container" style="justify-content: space-between;">
+                            <h5 class="card-title">
+                                {{ movie }}
+                            </h5>
+                            <div>
+                                {% for i in "12345" %}
+                                <i class="fa-solid fa-star" style="color: yellow;"></i>
+                                {% endfor %}
+                            </div>
+                        </div>
                         <hr>
                         <p class="card-text" style="height: 10rem;">{{ movie.description }}</p>
                         <hr>
