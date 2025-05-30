@@ -7,15 +7,21 @@ from .forms import MovieForm, CustomRegisterForm
 from django.contrib.auth.decorators import login_required
 from django.utils.http import url_has_allowed_host_and_scheme
 from django.contrib import messages
+from django.db.models import Avg
 
 def homepage(request):
     movies = Movie.objects.all()
     watchlist_movies = []
+    movies_rating = []
+
+    for obj in Movie.objects.all():
+        avg_rating = Comment.objects.filter(movie=obj.movie_id).aggregate(Avg('rate'))['rate__avg'] or 0
+        movies_rating.append(avg_rating)
 
     if request.user.is_authenticated:
         watchlist_movies = Movie.objects.filter(watchlist__user=request.user.id)
 
-    return render(request, 'homepage.html', {'movies': movies, 'watchlist_movies': watchlist_movies})
+    return render(request, 'homepage.html', {'movies': movies, 'watchlist_movies': watchlist_movies, 'movies_rating': movies_rating})
 
 def homepage_specific_films(request):
     genre = request.GET.get('genre')
