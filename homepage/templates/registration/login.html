@@ -6,15 +6,22 @@
 
 {% block body %}
 
-    <div class="card" style="width: 18rem;">
+<div class="form-container">
+    <div class="card" style="width: 18rem; background-color: rgba(0, 0, 0, 0.1);">
       <div class="card-body">
         <h5 class="card-title">Zaloguj się</h5>
+          <hr>
         <form method="POST">
             {% csrf_token %}
             {{ form|crispy }}
             <button type="submit" class="btn btn-primary">Login</button>
+            <a href="{% url 'homepage' %}">
+                <button type="submit" class="btn btn-danger">Back</button>
+            </a>
         </form>
       </div>
     </div>
+    <p style="padding: 10px;">Nie masz konta? <a href="{% url 'register' %}">Zarejestruj się</a></p>
+</div>
 
 {% endblock %}
