@@ -26,6 +26,14 @@ ul {
   gap: 20px;
 }
 
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
 .icon{
     font-size: 1.6rem;
     padding: 10px 0;
