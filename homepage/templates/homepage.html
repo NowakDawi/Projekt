@@ -106,7 +106,7 @@
 
         <div class="container">
 
-        {% for movie in movies %}
+        {% for movie, movie_rating in movies_zip %}
 
                 <div class="card" style="width: 26rem; background-color: rgba(0, 0, 0, 0.1);" id="{{ movie }}">
                   <img src="http://127.0.0.1:8000/homepage/poster/{{ movie.poster }}" class="card-img-top" alt="{{ movie }}">
@@ -116,11 +116,14 @@
                                 {{ movie }}
                             </h5>
                             <div>
-                                {% for i in "12345" %}
-                                <i class="fa-solid fa-star" style="color: yellow;"></i>
-                                {% endfor %}
+                                {% with ''|center:movie_rating as filler %}
+                                    {% for _ in filler %}
+                                        <i class="fa-solid fa-star" style="color: yellow;"></i>
+                                    {% endfor %}
+                                {% endwith %}
                             </div>
                         </div>
+
                         <hr>
                         <p class="card-text" style="height: 10rem;">{{ movie.description }}</p>
                         <hr>

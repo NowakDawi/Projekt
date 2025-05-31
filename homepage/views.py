@@ -14,25 +14,34 @@ def homepage(request):
     watchlist_movies = []
     movies_rating = []
 
-    for obj in Movie.objects.all():
+    for obj in movies:
         avg_rating = Comment.objects.filter(movie=obj.movie_id).aggregate(Avg('rate'))['rate__avg'] or 0
-        movies_rating.append(avg_rating)
+        movies_rating.append(int(avg_rating))
+
+    movies_zip = zip(movies, movies_rating)
+
 
     if request.user.is_authenticated:
         watchlist_movies = Movie.objects.filter(watchlist__user=request.user.id)
 
-    return render(request, 'homepage.html', {'movies': movies, 'watchlist_movies': watchlist_movies, 'movies_rating': movies_rating})
+    return render(request, 'homepage.html', {'movies_zip': movies_zip, 'movies': movies, 'watchlist_movies': watchlist_movies})
 
 def homepage_specific_films(request):
     genre = request.GET.get('genre')
     movies = Movie.objects.filter(genre__icontains=genre)
-
+    movies_rating = []
     watchlist_movies = []
+
+    for obj in movies:
+        avg_rating = Comment.objects.filter(movie=obj.movie_id).aggregate(Avg('rate'))['rate__avg'] or 0
+        movies_rating.append(int(avg_rating))
+
+    movies_zip = zip(movies, movies_rating)
 
     if request.user.is_authenticated:
         watchlist_movies = Movie.objects.filter(watchlist__user=request.user.id)
 
-    return render(request, 'homepage.html', {'movies': movies, 'watchlist_movies': watchlist_movies})
+    return render(request, 'homepage.html', {'movies_zip': movies_zip, 'movies': movies, 'watchlist_movies': watchlist_movies})
 
 @login_required
 def add_watchlist(request, movie_id):
