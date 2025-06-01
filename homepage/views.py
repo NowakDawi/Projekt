@@ -1,5 +1,4 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from django.http import HttpResponse, JsonResponse
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import login
 from .models import *
@@ -8,7 +7,9 @@ from django.contrib.auth.decorators import login_required
 from django.utils.http import url_has_allowed_host_and_scheme
 from django.contrib import messages
 from django.db.models import Avg
+from django.core.cache import cache
 
+"""
 def homepage(request):
     movies = Movie.objects.all()[:50]
     watchlist_movies = []
@@ -25,6 +26,32 @@ def homepage(request):
         watchlist_movies = Movie.objects.filter(watchlist__user=request.user.id)
 
     return render(request, 'homepage.html', {'movies_zip': movies_zip, 'movies': movies, 'watchlist_movies': watchlist_movies})
+"""
+
+def homepage(request):
+    movies = cache.get('homepage_movies')
+    movies_rating = cache.get('homepage_movies_rating')
+
+    if not movies or not movies_rating:
+        movies = Movie.objects.all()[:50]
+        movies_rating = []
+        for obj in movies:
+            avg_rating = Comment.objects.filter(movie=obj.movie_id).aggregate(Avg('rate'))['rate__avg'] or 0
+            movies_rating.append(int(avg_rating))
+        cache.set('homepage_movies', movies, 600)  # 10 min
+        cache.set('homepage_movies_rating', movies_rating, 600)
+
+    movies_zip = zip(movies, movies_rating)
+
+    watchlist_movies = []
+    if request.user.is_authenticated:
+        watchlist_movies = Movie.objects.filter(watchlist__user=request.user.id)
+
+    return render(request, 'homepage.html', {
+        'movies_zip': movies_zip,
+        'movies': movies,
+        'watchlist_movies': watchlist_movies
+    })
 
 def homepage_specific_films(request):
     genre = request.GET.get('genre')
