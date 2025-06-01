@@ -5,13 +5,22 @@
 {% block title %} {{ action }} {% endblock %}
 
 {% block body %}
-    <form method="POST" enctype="multipart/form-data">
-        {% csrf_token %}
-        {{ form|crispy }}
 
-        <button type="submit">Submit</button>
-    </form>
-    <a href="{{ previous_url }}">
-        <button type="submit">Back</button>
-    </a>
+<div class="form-container">
+    <div class="card" style="width: 32rem; background-color: rgba(0, 0, 0, 0.1);">
+      <div class="card-body">
+        <h5 class="card-title">{{ title }}</h5>
+          <hr>
+        <form method="POST">
+            {% csrf_token %}
+            {{ form|crispy }}
+            <button type="submit" class="btn btn-primary">Zapisz</button>
+            <a href="{% url 'homepage' %}">
+                <button type="submit" class="btn btn-danger">Back</button>
+            </a>
+        </form>
+      </div>
+    </div>
+</div>
+
 {% endblock %}
