@@ -10,7 +10,7 @@ from django.contrib import messages
 from django.db.models import Avg
 
 def homepage(request):
-    movies = Movie.objects.all()
+    movies = Movie.objects.all()[:50]
     watchlist_movies = []
     movies_rating = []
 
@@ -59,10 +59,19 @@ def add_watchlist(request, movie_id):
 @login_required
 def show_watchlist(request):
 
-    if request.user.is_authenticated:
-        watchlist_movies = Movie.objects.filter(watchlist__user=request.user.id)
+    movies = Movie.objects.all()
+    movies_rating = []
 
-    return render(request, 'homepage.html', {'movies': watchlist_movies, 'watchlist_movies': watchlist_movies})
+
+    watchlist_movies = Movie.objects.filter(watchlist__user=request.user.id)
+
+    for obj in movies:
+        avg_rating = Comment.objects.filter(movie=obj.movie_id).aggregate(Avg('rate'))['rate__avg'] or 0
+        movies_rating.append(int(avg_rating))
+
+    movies_zip = zip(watchlist_movies, movies_rating)
+
+    return render(request, 'homepage.html', {'movies_zip': movies_zip, 'movies': movies, 'watchlist_movies': watchlist_movies})
 
 @login_required
 def add(request):
@@ -72,7 +81,7 @@ def add(request):
         form.save()
         return redirect(homepage)
 
-    return render(request, 'new_form.html', {'form': form, 'previous_url': previous_url, 'action': "Create new film"})
+    return render(request, 'new_form.html', {'form': form, 'previous_url': previous_url, 'action': "Create new film", 'title': "Dodaj nowy film"})
 
 @login_required
 def edit(request, id):
@@ -84,7 +93,7 @@ def edit(request, id):
         form.save()
         return redirect(homepage)
 
-    return render(request, 'new_form.html', {'form': form, 'previous_url': previous_url, 'action': f"Edit {movie.title}"})
+    return render(request, 'new_form.html', {'form': form, 'previous_url': previous_url, 'action': f"Edit {movie.title}", 'title': f"Edytuj {movie.title}"})
 
 @login_required
 def delete(request, id):
