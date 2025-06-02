@@ -69,26 +69,32 @@
           <ul class="dropdown-menu">
 
               {% if user.is_authenticated %}
-                {% for watch_movie in watchlist_movies %}
-                    <li>
-                        <a class="dropdown-item" href="#{{ watch_movie }}">
-                            <div class="container" style="justify-content: space-between;">
-                                <div>
-                                    {{ watch_movie }}
-                                    <i class="fa-solid fa-star" style="padding-left: 5px; color: yellow"></i>
-                                </div>
 
-                                    <i class="fa-solid fa-trash" style="color: red; text-align: right;"></i>
-                            </div>
+                    {% if watchlist_movies|length > 0 %}
 
-                        </a>
-                    </li>
-                {% endfor %}
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="{% url 'show_watchlist' %}">Sprawdź watchlistę</a></li>
+                        {% for watch_movie in watchlist_movies %}
+                            <li>
+                                <a class="dropdown-item" href="#{{ watch_movie }}">
+                                    <div class="container" style="justify-content: space-between;">
+                                        <div>
+                                            {{ watch_movie }}
+                                            <i class="fa-solid fa-star" style="padding-left: 5px; color: yellow"></i>
+                                        </div>
+                                            <i class="fa-solid fa-trash" style="color: red; text-align: right;"></i>
+                                    </div>
+                                </a>
+                            </li>
+                        {% endfor %}
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="{% url 'show_watchlist' %}">Sprawdź watchlistę</a></li>
+                    {% else %}
+                        <li><a class="dropdown-item" href="{% url 'login_view' %}">Dodaj filmy do watchlisty</a></li>
+                    {% endif %}
               {% else %}
 
-                <li><a class="dropdown-item" href="{% url 'login_view' %}">Zaloguj się aby zobaczyć swoje filmy</a></li>
+                <li>
+                    <a class="dropdown-item" href="{% url 'login_view' %}">Zaloguj się aby zobaczyć swoje filmy</a>
+                </li>
 
               {% endif %}
           </ul>
