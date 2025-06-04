@@ -23,6 +23,7 @@ class MovieCast(models.Model):
     actor = models.ForeignKey(Cast, on_delete=models.CASCADE)
 
 class Watchlist(models.Model):
+    watchlist_id = models.BigAutoField(primary_key=True)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     movie = models.ForeignKey(Movie, on_delete=models.CASCADE)
 
@@ -30,6 +31,7 @@ class Comment(models.Model):
     comment_id = models.AutoField(primary_key=True)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     movie = models.ForeignKey(Movie, on_delete=models.CASCADE)
+    content = models.TextField(null=False)
     rate = models.IntegerField(default=1, choices=[(1, 1), (2, 2), (3, 3), (4, 4), (5, 5)])
 
 class Genre(models.Model):

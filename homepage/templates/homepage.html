@@ -72,15 +72,22 @@
 
                     {% if watchlist_movies|length > 0 %}
 
-                        {% for watch_movie in watchlist_movies %}
+                        {% for watchlist_movie, watchlist_movies_id in watchlist_zip %}
                             <li>
-                                <a class="dropdown-item" href="#{{ watch_movie }}">
+                                <a class="dropdown-item" href="#{{ watchlist_movie }}">
                                     <div class="container" style="justify-content: space-between;">
                                         <div>
-                                            {{ watch_movie }}
+                                            {{ watchlist_movie }}
                                             <i class="fa-solid fa-star" style="padding-left: 5px; color: yellow"></i>
                                         </div>
-                                            <i class="fa-solid fa-trash" style="color: red; text-align: right;"></i>
+                                            {% if watchlist_movies_id and watchlist_movies_id.watchlist_id %}
+                                                <form action="{% url 'remove_watchlist' watchlist_movies_id.watchlist_id %}" method="post">
+                                                    {% csrf_token %}
+                                                    <button type="submit" class="unstyled-button">
+                                                        <i class="fa-solid fa-trash" style="color: red;"></i>
+                                                    </button>
+                                                </form>
+                                            {% endif %}
                                     </div>
                                 </a>
                             </li>
@@ -177,4 +184,9 @@
         <h2>Movies are not available</h2>
     {% endif %}
         </div>
+<footer class="bg-body-tertiary text-center text-lg-start" >
+  <div class="text-center p-3" style="background-color: rgb(43, 47, 52); color: white;">
+    © 2020 Copyright
+  </div>
+</footer>
 {% endblock %}

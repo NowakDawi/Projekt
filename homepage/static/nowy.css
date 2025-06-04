@@ -34,6 +34,11 @@ ul {
   height: 100vh;
 }
 
+  .unstyled-button {
+    all: unset;
+    cursor: pointer;
+  }
+
 .icon{
     font-size: 1.6rem;
     padding: 10px 0;

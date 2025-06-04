@@ -42,15 +42,20 @@ def homepage(request):
         cache.set('homepage_movies_rating', movies_rating, 600)
 
     movies_zip = zip(movies, movies_rating)
-
     watchlist_movies = []
+    watchlist_zip = []
+
+
     if request.user.is_authenticated:
         watchlist_movies = Movie.objects.filter(watchlist__user=request.user.id)
+        watchlist_movies_id = Watchlist.objects.filter(user_id=request.user.id)
+        watchlist_zip = zip(watchlist_movies, watchlist_movies_id)
 
     return render(request, 'homepage.html', {
         'movies_zip': movies_zip,
         'movies': movies,
-        'watchlist_movies': watchlist_movies
+        'watchlist_movies': watchlist_movies,
+        'watchlist_zip': watchlist_zip
     })
 
 def homepage_specific_films(request):
@@ -65,10 +70,21 @@ def homepage_specific_films(request):
 
     movies_zip = zip(movies, movies_rating)
 
+    watchlist_movies = []
+    watchlist_zip = []
+
+
     if request.user.is_authenticated:
         watchlist_movies = Movie.objects.filter(watchlist__user=request.user.id)
+        watchlist_movies_id = Watchlist.objects.filter(user_id=request.user.id)
+        watchlist_zip = zip(watchlist_movies, watchlist_movies_id)
 
-    return render(request, 'homepage.html', {'movies_zip': movies_zip, 'movies': movies, 'watchlist_movies': watchlist_movies})
+    return render(request, 'homepage.html', {
+        'movies_zip': movies_zip,
+        'movies': movies,
+        'watchlist_movies': watchlist_movies,
+        'watchlist_zip': watchlist_zip
+    })
 
 @login_required
 def add_watchlist(request, movie_id):
@@ -82,24 +98,14 @@ def add_watchlist(request, movie_id):
         messages.success(request, 'Film dodany do watchlisty.')
 
     return redirect('homepage')
-"""
-@login_required
-def show_watchlist(request):
 
-    movies = Movie.objects.all()
-    movies_rating = []
+def remove_watchlist(request, id):
+    movie_watchlist = get_object_or_404(Watchlist, pk=id)
 
+    if request.method == "POST":
+        movie_watchlist.delete()
+        return redirect('homepage')
 
-    watchlist_movies = Movie.objects.filter(watchlist__user=request.user.id)
-
-    for obj in movies:
-        avg_rating = Comment.objects.filter(movie=obj.movie_id).aggregate(Avg('rate'))['rate__avg'] or 0
-        movies_rating.append(int(avg_rating))
-
-    movies_zip = zip(watchlist_movies, movies_rating)
-
-    return render(request, 'homepage.html', {'movies_zip': movies_zip, 'movies': movies, 'watchlist_movies': watchlist_movies})
-"""
 @login_required
 def show_watchlist(request):
 
@@ -122,11 +128,20 @@ def show_watchlist(request):
 
 
     movies_zip = zip(watchlist_movies, movies_rating)
+    watchlist_movies = []
+    watchlist_zip = []
+
+
+    if request.user.is_authenticated:
+        watchlist_movies = Movie.objects.filter(watchlist__user=request.user.id)
+        watchlist_movies_id = Watchlist.objects.filter(user_id=request.user.id)
+        watchlist_zip = zip(watchlist_movies, watchlist_movies_id)
 
     return render(request, 'homepage.html', {
         'movies_zip': movies_zip,
         'movies': movies,
-        'watchlist_movies': watchlist_movies
+        'watchlist_movies': watchlist_movies,
+        'watchlist_zip': watchlist_zip
     })
 
 @login_required
