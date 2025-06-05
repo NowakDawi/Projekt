@@ -1,5 +1,6 @@
 from django.forms import ModelForm
 from .models import Movie
+from .models import Comment
 from django import forms
 from django.contrib.auth.password_validation import password_validators_help_texts
 
@@ -9,7 +10,10 @@ class MovieForm(ModelForm):
         model = Movie
         fields = ['title', 'description', 'release_date', 'genre', 'poster']
 
-
+class CommentForm(ModelForm):
+    class Meta:
+        model = Comment
+        fields = ['content', 'rate']
 
 class CustomRegisterForm(forms.Form):
     username = forms.CharField(max_length=150)

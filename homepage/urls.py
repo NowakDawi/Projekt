@@ -11,5 +11,7 @@ urlpatterns = [
     path("register/", views.register, name="register"),
     path("edit/<int:id>/", views.edit,  name="edit"),
     path("delete/<int:id>/", views.delete, name="delete"),
-    path("delete_watchlist/<int:id>/", views.remove_watchlist, name="remove_watchlist")
+    path("delete_watchlist/<int:id>/", views.remove_watchlist, name="remove_watchlist"),
+    path("show_comments/<int:id>/", views.show_comments, name="show_comments"),
+    path("add_comment/<int:id>/", views.add_comment, name="add_comment")
 ]

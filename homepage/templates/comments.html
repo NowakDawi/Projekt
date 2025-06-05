@@ -1,0 +1,43 @@
+{% extends 'main.html' %}
+
+{% block title %} Komentarze {% endblock %}
+
+{% block body %}
+    {% if comments|length > 0 %}
+        {% for comment in comments %}
+
+            <div class="card" style="width: 26rem; background-color: rgba(0, 0, 0, 0.1); margin: 10px;">
+              <div class="card-body">
+                  <div class="container" style="justify-content: space-between;">
+                      <h5 class="card-title">
+                          {{ comment.user }}
+                      </h5>
+                      <div>
+                          {% with ''|center:comment.rate as filler %}
+                                {% for _ in filler %}
+                                    <i class="fa-solid fa-star" style="color: yellow;"></i>
+                                {% endfor %}
+                          {% endwith %}
+                      </div>
+                  </div>
+
+                  <hr>
+                <p class="card-text">{{ comment.content }}</p>
+                  <hr>
+              </div>
+            </div>
+        {% endfor %}
+    {% else %}
+        <h3>Dodaj pierwszy komentarz</h3>
+    {% endif %}
+        <a href="{% url 'add_comment' movie_id %}">
+            <button type="button" class="btn btn-primary">
+                Add comment
+            </button>
+        </a>
+        <a href="{% url 'homepage' %}">
+            <button type="button" class="btn btn-danger">
+                Back
+            </button>
+        </a>
+{% endblock %}
