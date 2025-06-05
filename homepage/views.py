@@ -9,24 +9,6 @@ from django.contrib import messages
 from django.db.models import Avg
 from django.core.cache import cache
 
-"""
-def homepage(request):
-    movies = Movie.objects.all()[:50]
-    watchlist_movies = []
-    movies_rating = []
-
-    for obj in movies:
-        avg_rating = Comment.objects.filter(movie=obj.movie_id).aggregate(Avg('rate'))['rate__avg'] or 0
-        movies_rating.append(int(avg_rating))
-
-    movies_zip = zip(movies, movies_rating)
-
-
-    if request.user.is_authenticated:
-        watchlist_movies = Movie.objects.filter(watchlist__user=request.user.id)
-
-    return render(request, 'homepage.html', {'movies_zip': movies_zip, 'movies': movies, 'watchlist_movies': watchlist_movies})
-"""
 
 def homepage(request):
     movies = cache.get('homepage_movies')
