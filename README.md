@@ -1,3 +1,7 @@
+Jak uruchomić:
+
+python manage.py -runserver
+
 ```
 docker compose up
 ```
